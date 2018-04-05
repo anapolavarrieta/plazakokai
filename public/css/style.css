@@ -1,0 +1,27 @@
+body{
+	height: 100%;
+}
+
+/*Navigation Bar/Menu*/
+
+	#navigation{
+		background-color: black;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		color:white;
+		font-size: 150%;
+	}	
+
+	/*Align center*/
+	.navbar-nav {
+    	position: absolute;
+   		left: 50%;
+   		transform: translatex(-50%);
+   	}
+
+/*Navigation Bar/Menu*/
+
+	.content{
+		height: 70%;
+	}
