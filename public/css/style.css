@@ -1,27 +1,57 @@
 body{
-	height: 100%;
+	background-color: black;
 }
 
 /*Navigation Bar/Menu*/
 
-	#navigation{
-		background-color: black;
-	}
+#navigation{
+    background-color: black;
+    border:0;
+}
 
-	.navbar-default .navbar-nav>li>a{
-		color:white;
-		font-size: 150%;
-	}	
+.navbar-default .navbar-nav>li>a{
+    color:white;
+    font-size: 150%;
+}
 
-	/*Align center*/
-	.navbar-nav {
-    	position: absolute;
-   		left: 50%;
-   		transform: translatex(-50%);
-   	}
+.imgBanner{
+    width:100%;
+}
 
 /*Navigation Bar/Menu*/
+.content{
+    height: 70%;
+}
 
-	.content{
-		height: 70%;
-	}
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.item {
+    display: none;
+    position: relative;
+    .transition(.2s ease-in-out left);
+}
+
+.imgSomos{
+        background-image: url('/images/fondoPlaya.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 640px;
+}

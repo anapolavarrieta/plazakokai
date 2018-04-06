@@ -12,5 +12,29 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('inicio');
+});
+
+Route::get('/somos', function () {
+    return view('somos');
+});
+
+Route::get('/habitaciones', function () {
+    return view('habitaciones');
+});
+
+Route::get('/servicios', function () {
+    return view('servicios');
+});
+
+Route::get('/traslados', function () {
+    return view('traslados');
+});
+
+Route::get('/contacto', function () {
+    return view('contacto');
+});
+
+Route::get('/tarifas', function () {
+    return view('tarifas');
 });
