@@ -7,16 +7,16 @@
         <br>
     </div>
     <div class="row hidden-lg hidden-md">
-        <div class="col-sm-3 col-xs-3">
+        <div class="col-sm-3 col-xs-6">
              <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive " alt="" >
         </div>
-        <div class="col-sm-3 col-xs-3">
+        <div class="col-sm-3 col-xs-6">
              <img src="{{URL::asset('/images/Habitaciones/standar_king1.JPG')}}" class="img-responsive " alt="" >
         </div>
-        <div class="col-sm-3 col-xs-3">
+        <div class="col-sm-3 col-xs-6">
              <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive " alt="" >
         </div>
-        <div class="col-sm-3 col-xs-3">
+        <div class="col-sm-3 col-xs-6">
              <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive " alt="" >
         </div>
     </div>
