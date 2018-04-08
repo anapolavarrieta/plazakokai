@@ -11,6 +11,7 @@
         </td>
         <td>
             <?php
+            date_default_timezone_set('	America/Mexico_City');
             $fecha=date("d-m-y  h:i A");
             ?>
             {{$fecha}}
