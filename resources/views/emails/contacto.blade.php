@@ -8,6 +8,16 @@
 <div class="container">
     <div class="row">
         <div class="col-md-2">
+            Fecha
+        </div>
+        <div class="col-md-6">
+            $fecha=date("d-m-y");
+            {{$fecha}}
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-md-2">
             Cliente
         </div>
         <div class="col-md-6">
