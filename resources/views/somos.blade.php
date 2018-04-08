@@ -15,7 +15,7 @@
                 </p>
                 <p><br></p>
                 <p class="font140 fontBlack fontBold justificado">
-                    Situado estrategisamente en el centro de Cancún a solo 200 metros de la terminal de autobuses ADO y a menos de 500 metros de Puerto Cancún y su extenso centro comercial.
+                    Situado estrategicamente en el centro de Cancún a solo 200 metros de la terminal de autobuses ADO y a menos de 500 metros de Puerto Cancún y su extenso centro comercial.
                 </p>
                 <p><br></p>
                 <p class="font140 fontBlack fontBold justificado">

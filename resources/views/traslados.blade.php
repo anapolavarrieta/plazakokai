@@ -7,7 +7,7 @@
     </div>
     <div class="row">
         <div class="col-md-12 font200 fontBold center">
-            PARA TU COMODIDAD TE OFRECEMOS TRASLADOS
+            PARA SU COMODIDAD OFRECEMOS TRASLADOS
         </div>
     </div>
     <div class="row center">

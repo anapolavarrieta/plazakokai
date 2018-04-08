@@ -82,7 +82,7 @@
                             </div>
                             <div class="col-sm-12 " align="center ">
                                 <p class="fontBold">Gracias por completar el formulario, nos pondremos en contacto con usted para darle más detalles de su reservación.
-                                Su reservación esta sujeta a disponibilidad y será confirmada por correo electrónico.</p>
+                                Su reservación esta sujeta a disponibilidad y será confirmada por correo electrónico o por teléfono.</p>
                             </div>
                             <div class="col-sm-12 " align="left">
                                 <br>
@@ -142,7 +142,7 @@
                    <div class="col-md-4 black">
                         <div class="row center">
                             <h3 class="fontBold">
-                                Junio Suite
+                                Junior Suite
                             </h3>
                         </div>
                          <div class="row center">
