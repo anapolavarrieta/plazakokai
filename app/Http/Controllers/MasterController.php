@@ -13,7 +13,7 @@ class MasterController extends Controller
 
         $data = "algo";
 
-        $contactName =  utf8_encode(utf8_encode($request->input('nombre'));
+        $contactName =  utf8_encode($request->input('nombre'));
         $contactEmail =  utf8_encode($request->input('correo'));
         $contactCel =  $request->input('celular');
         $contactTel =  $request->input('telefono');
