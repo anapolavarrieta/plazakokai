@@ -7,17 +7,25 @@
         <br>
     </div>
     <div class="row hidden-lg hidden-md">
-        <div class="col-sm-3 col-xs-6">
-             <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive " alt="" >
+        <div class="col-sm-3 col-xs-6 imgHabSm">
+             <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive" alt="" >
         </div>
-        <div class="col-sm-3 col-xs-6">
-             <img src="{{URL::asset('/images/Habitaciones/standar_king1.JPG')}}" class="img-responsive " alt="" >
+        <div class="col-sm-3 col-xs-6 imgHabSm">
+             <img src="{{URL::asset('/images/Habitaciones/standar_king1.JPG')}}" class="img-responsive" alt="" >
         </div>
-        <div class="col-sm-3 col-xs-6">
-             <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive " alt="" >
+        <div class="col-sm-3 hidden-xs imgHabSm">
+             <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive" alt="" >
         </div>
-        <div class="col-sm-3 col-xs-6">
-             <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive " alt="" >
+        <div class="col-sm-3 hidden-xs imgHabSm">
+             <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive" alt="" >
+        </div>
+    </div>
+    <div class="row hidden-lg hidden-md hidden-sm">
+        <div class="col-xs-6 imgHabSm">
+             <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive" alt="" >
+        </div>
+        <div class="col-xs-6 imgHabSm">
+             <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive" alt="" >
         </div>
     </div>
     <div class="row">

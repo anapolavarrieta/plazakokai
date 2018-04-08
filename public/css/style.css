@@ -59,6 +59,10 @@ body{
         background-size: 100% 100%;
 }
 
+.imgHabSm{
+    padding:10px;
+}
+
 .imgHab{
         background-image: url('/images/Habitaciones/standar_doble.JPG');
         background-repeat: no-repeat;
