@@ -16,7 +16,7 @@ class MasterController extends Controller
         $contactName =  utf8_decode($request->input('nombre'));
         $contactEmail =  utf8_decode($request->input('correo'));
         $contactCel =  $request->input('celular');
-        $contactTel =  "ádíós"//$request->input('telefono');
+        $contactTel =  "ádíós";//$request->input('telefono');
         $contactMessage =  utf8_decode($request->input('mensaje')."hólá");
 
 
