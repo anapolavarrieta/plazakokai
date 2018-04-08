@@ -13,11 +13,11 @@ class MasterController extends Controller
 
         $data = "algo";
 
-        $contactName =  utf8_decode($request->input('nombre'));
-        $contactEmail =  utf8_decode($request->input('correo'));
+        $contactName =  $request->input('nombre');
+        $contactEmail =  $request->input('correo');
         $contactCel =  $request->input('celular');
-        $contactTel =  "ádíós";//$request->input('telefono');
-        $contactMessage =  utf8_decode($request->input('mensaje')."hólá");
+        $contactTel =  $request->input('telefono');
+        $contactMessage =  $request->input('mensaje');
 
 
         $data = array('nombre'=>$contactName, 'correo'=>$contactEmail, 'celular'=>$contactCel, 'telefono'=>$contactTel, 'mensaje'=>$contactMessage);
@@ -29,7 +29,9 @@ class MasterController extends Controller
 			$message->subject('[Contacto] Página Hotel');
  		});
 
-
-        return back()->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!'.$res);
+        dump($request);
+        dump($contactEmail);
+        //return back()->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!'.$res);
+        return view('layouts.prueba');
     }
 }
