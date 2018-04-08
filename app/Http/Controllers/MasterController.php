@@ -21,9 +21,9 @@ class MasterController extends Controller
 
 
         $res = Mail::send('emails.contacto',$data, function ($message) {
-			$message->from('gaby@kokai.com.mx','Company Name');
-			$message->to('goop.19@gmail.com ');
-			$message->subject('Contact form submitted on domainname.com ');
+			$message->from('gaby@kokai.com.mx','Hotel Kokai');
+			$message->to('goop.19@gmail.com');
+			$message->subject('[Contacto] Página Hotel');
  		});
 
 
