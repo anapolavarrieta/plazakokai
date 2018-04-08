@@ -15,9 +15,11 @@ class MasterController extends Controller
 
         $contactName =  $request->input('nombre');
         $contactEmail =  $request->input('correo');
+        $contactCel =  $request->input('celular');
+        $contactTel =  $request->input('telefono');
         $contactMessage =  $request->input('mensaje');
 
-        $data = array('name'=>$contactName, 'email'=>$contactEmail, 'message'=>$contactMessage);
+        $data = array('nombre'=>$contactName, 'correo'=>$contactEmail, 'celular'=>$contactCel, 'telefono'=>$contactTel, 'mensaje'=>$contactMessage);
 
 
         $res = Mail::send('emails.contacto',$data, function ($message) {
