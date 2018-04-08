@@ -30,7 +30,7 @@
             Correo
         </div>
         <div class="col-md-6">
-            {{{utf8_encode($correo)}}
+            {{utf8_encode($correo)}}
         </div>
     </div>
     <div class="row">
