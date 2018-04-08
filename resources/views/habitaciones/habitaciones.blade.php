@@ -174,22 +174,22 @@
             </div>
             <div class="row center font120">
                  <div class="col-md-2 col-sm-4 col-xs-4 center">
-                    <img src="{{URL::asset('/images/iconos/sala.png')}}" class="img-responsive iconoPH" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/sala.png')}}" class="img-responsive iconoPH" alt="" >
                 </div>
                 <div class="col-md-2 col-sm-4 col-xs-4">
-                    <img src="{{URL::asset('/images/iconos/cocineta.png')}}" class="img-responsive iconoPH" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/cocineta.png')}}" class="img-responsive iconoPH" alt="" >
                 </div>
                 <div class="col-md-2 col-sm-4 col-xs-4">
-                    <img src="{{URL::asset('/images/iconos/comedor.png')}}" class="img-responsive iconoPH" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/comedor.png')}}" class="img-responsive iconoPH" alt="" >
                 </div>
                 <div class="col-md-2 col-sm-4 col-xs-4">
-                    <img src="{{URL::asset('/images/iconos/habitaciones.png')}}" class="img-responsive iconoPH" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/habitaciones.png')}}" class="img-responsive iconoPH" alt="" >
                 </div>
                 <div class="col-md-2 col-sm-4 col-xs-4">
-                    <img src="{{URL::asset('/images/iconos/sofas.png')}}" class="img-responsive iconoPH" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/sofas.png')}}" class="img-responsive iconoPH" alt="" >
                 </div>
                 <div class="col-md-2 col-sm-4 col-xs-4">
-                    <img src="{{URL::asset('/images/iconos/baños.png')}}" class="img-responsive iconoPH" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/baños.png')}}" class="img-responsive iconoPH" alt="" >
                 </div>
             </div>
             <div class="row">
@@ -198,35 +198,35 @@
             <div class="row center font120">
                 <div class="col-md-1 col-sm-0 col-xs-0"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/aire.png')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/aire.png')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/regadera.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/regadera.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/cable.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/cable.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/elevador.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/elevador.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/servicioHabitacion.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/servicioHabitacion.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/internet.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/internet.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="hidden-lg hidden-md col-sm-2 col-xs-2"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/telefono.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/telefono.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/cafe.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/cafe.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/minusvalidos.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/minusvalidos.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/nofumar.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/nofumar.jpg')}}" class="img-responsive" alt="" >
                 </div>
             </div>
             <div class="row font150">

@@ -12,15 +12,15 @@
     </div>
     <div class="row center">
         <div class="col-md-4 font150 center">
-            <img src="{{URL::asset('/images/iconos/trasAutobus.png')}}" class="imgTras img-responsive center" alt="" >
+            <img src="{{URL::asset('/images/Iconos/trasAutobus.png')}}" class="imgTras img-responsive center" alt="" >
             CENTRAL DE CAMIONES
         </div>
         <div class="col-md-4 font150 center">
-            <img src="{{URL::asset('/images/iconos/trasPlaya.png')}}" class="imgTras img-responsive center" alt="" >
+            <img src="{{URL::asset('/images/Iconos/trasPlaya.png')}}" class="imgTras img-responsive center" alt="" >
             PLAYA
         </div>
         <div class="col-md-4 font150 center">
-            <img src="{{URL::asset('/images/iconos/trasAeropuerto.png')}}" class="imgTras img-responsive center" alt="" >
+            <img src="{{URL::asset('/images/Iconos/trasAeropuerto.png')}}" class="imgTras img-responsive center" alt="" >
             AEROPUERTO
         </div>
     </div>
