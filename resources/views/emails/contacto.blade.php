@@ -11,7 +11,7 @@
             Cliente
         </div>
         <div class="col-md-6">
-            {{$nombre}}
+            {!!$nombre!!}
         </div>
     </div>
     <div class="row">
