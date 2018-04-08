@@ -29,7 +29,7 @@ class MasterController extends Controller
 
         dump($request);
         dump($contactEmail);
-        //return back()->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!'.$res);
-        return view('layouts.prueba');
+        return back()->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!'.$res);
+        //return view('layouts.prueba');
     }
 }
