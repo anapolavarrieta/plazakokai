@@ -7,25 +7,31 @@
         <br>
     </div>
     <div class="row hidden-lg hidden-md">
-        <div class="col-sm-3 col-xs-6 imgHabSm">
+        <div class="col-sm-3 col-xs-6 imgHabSm center">
              <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive" alt="" >
+             Estandard Doble
         </div>
-        <div class="col-sm-3 col-xs-6 imgHabSm">
+        <div class="col-sm-3 col-xs-6 imgHabSm center">
              <img src="{{URL::asset('/images/Habitaciones/standar_king1.JPG')}}" class="img-responsive" alt="" >
+             Estandard King
         </div>
-        <div class="col-sm-3 hidden-xs imgHabSm">
+        <div class="col-sm-3 hidden-xs imgHabSm center">
              <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive" alt="" >
+             Junior Suite
         </div>
-        <div class="col-sm-3 hidden-xs imgHabSm">
+        <div class="col-sm-3 hidden-xs imgHabSm center">
              <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive" alt="" >
+             Pent-House
         </div>
     </div>
-    <div class="row hidden-lg hidden-md hidden-sm">
+    <div class="row hidden-lg hidden-md hidden-sm center">
         <div class="col-xs-6 imgHabSm">
              <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive" alt="" >
+             Junior Suite
         </div>
-        <div class="col-xs-6 imgHabSm">
+        <div class="col-xs-6 imgHabSm center">
              <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive" alt="" >
+             Pent-House
         </div>
     </div>
     <div class="row">
@@ -92,7 +98,7 @@
        <div class="col-md-8 black">
             <div class="row center font120">
                 <h3 class="fontBold">
-                    Junio Suite
+                    Junior Suite
                 </h3>
             </div>
             <div class="row center font120">
