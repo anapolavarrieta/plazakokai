@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-6">
             <?php
-            $fecha=date("d-m-y");
+            $fecha=date("d-m-y  h:i A");
             ?>
             {{$fecha}}
         </div>
@@ -30,7 +30,7 @@
             Correo
         </div>
         <div class="col-md-6">
-            {{$correo}}
+            {{{utf8_encode($correo)}}
         </div>
     </div>
     <div class="row">
