@@ -7,17 +7,17 @@
         <br>
     </div>
     <div class="row hidden-lg hidden-md">
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-xs-3">
              <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive " alt="" >
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-xs-3">
              <img src="{{URL::asset('/images/Habitaciones/standar_king1.JPG')}}" class="img-responsive " alt="" >
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-xs-3">
              <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive " alt="" >
         </div>
-        <div class="col-sm-3">
-             <img src="{{URL::asset('/images/Habitaciones/pentHouse1.png')}}" class="img-responsive " alt="" >
+        <div class="col-sm-3 col-xs-3">
+             <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive " alt="" >
         </div>
     </div>
     <div class="row">
@@ -135,7 +135,7 @@
                 </div>
                 <div class="hidden-lg hidden-md col-sm-2 col-xs-2"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/bellBoy.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/bellboy.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
                     <img src="{{URL::asset('/images/Iconos/cafe.jpg')}}" class="img-responsive iconoHab" alt="" >
