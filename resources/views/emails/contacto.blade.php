@@ -4,59 +4,58 @@
 </head>
 <body style="background: white; color: black">
 <h1 class="center">Información de Contacto de la página</h1>
-<div class="container">
-    <div class="row">
-        <div class="col-md-2">
+<table>
+    <tr>
+        <td>
             Fecha
-        </div>
-        <div class="col-md-6">
+        </td>
+        <td>
             <?php
             $fecha=date("d-m-y  h:i A");
             ?>
             {{$fecha}}
-        </div>
-    </div>
-    <div class="row">
-
-        <div class="col-md-2">
+        </td>
+    </tr>
+    <tr>
+        <td>
             Cliente
-        </div>
-        <div class="col-md-6">
-            {!!$nombre!!}
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-2">
+        </td>
+        <td>
+            {{$nombre}}
+        </td>
+    </tr>
+    <tr>
+        <td>
             Correo
-        </div>
-        <div class="col-md-6">
+        </td>
+        <td>
             {{utf8_encode($correo)}}
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-2">
+        </td>
+    </tr>
+    <tr>
+        <td>
             Celular
-        </div>
-        <div class="col-md-6">
+        </td>
+        <td>
             {{$celular}}
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-2">
+        </td>
+    </tr>
+    <tr>
+        <td>
             Teléfono
-        </div>
-        <div class="col-md-6">
+        </td>
+        <td>
             {{$telefono}}
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-2">
+        </td>
+    </tr>
+    <tr>
+        <td>
             Mensaje
-        </div>
-        <div class="col-md-6">
+        </td>
+        <td>
             {{$mensaje}}
-        </div>
-    </div>
-</div>
+        </td>
+    </tr>
+</table>
 </body>
 </html>
