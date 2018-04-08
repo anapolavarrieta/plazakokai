@@ -8,16 +8,16 @@
     </div>
     <div class="row hidden-lg hidden-md">
         <div class="col-sm-3">
-             <img src="{{URL::asset('/images/habitaciones/standar_doble.JPG')}}" class="img-responsive " alt="" >
+             <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive " alt="" >
         </div>
         <div class="col-sm-3">
-             <img src="{{URL::asset('/images/habitaciones/standar_king1.JPG')}}" class="img-responsive " alt="" >
+             <img src="{{URL::asset('/images/Habitaciones/standar_king1.JPG')}}" class="img-responsive " alt="" >
         </div>
         <div class="col-sm-3">
-             <img src="{{URL::asset('/images/habitaciones/suite2.JPG')}}" class="img-responsive " alt="" >
+             <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive " alt="" >
         </div>
         <div class="col-sm-3">
-             <img src="{{URL::asset('/images/habitaciones/pentHouse1.png')}}" class="img-responsive " alt="" >
+             <img src="{{URL::asset('/images/Habitaciones/pentHouse1.png')}}" class="img-responsive " alt="" >
         </div>
     </div>
     <div class="row">
@@ -40,35 +40,35 @@
             <div class="row center font120">
                 <div class="col-md-1 col-sm-0 col-xs-0"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/aire.png')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/aire.png')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/regadera.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/regadera.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/cable.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/cable.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/elevador.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/elevador.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/servicioHabitacion.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/servicioHabitacion.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/internet.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/internet.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="hidden-lg hidden-md col-sm-2 col-xs-2"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/telefono.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/telefono.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/cafe.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/cafe.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/minusvalidos.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/minusvalidos.jpg')}}" class="img-responsive" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/nofumar.jpg')}}" class="img-responsive" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/nofumar.jpg')}}" class="img-responsive" alt="" >
                 </div>
             </div>
             <div class="row font200">
@@ -96,56 +96,56 @@
             <div class="row center font120">
                 <div class="col-md-2 col-sm-0 col-xs-0"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/aire.png')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/aire.png')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/regadera.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/regadera.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/tina.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/tina.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/sala.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/sala.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/cable.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/cable.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/elevador.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/elevador.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/servicioHabitacion.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/servicioHabitacion.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/escritorio.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/escritorio.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
 
                 <div class="hidden-sm hidden-xs col-md-2 col-lg-2"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/laptop.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/laptop.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/internet.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/internet.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/telefono.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/telefono.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/ServicioLavanderia.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/ServicioLavanderia.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="hidden-lg hidden-md col-sm-2 col-xs-2"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/bellBoy.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/bellBoy.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/cafe.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/cafe.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
 
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/minusvalidos.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/minusvalidos.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/iconos/nofumar.jpg')}}" class="img-responsive iconoHab" alt="" >
+                    <img src="{{URL::asset('/images/Iconos/nofumar.jpg')}}" class="img-responsive iconoHab" alt="" >
                 </div>
 
             </div>
