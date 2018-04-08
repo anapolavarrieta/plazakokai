@@ -20,7 +20,7 @@ Route::get('/somos', function () {
 });
 
 Route::get('/habitaciones', function () {
-    return view('habitaciones');
+    return view('habitaciones.habitaciones');
 });
 
 Route::get('/servicios', function () {
@@ -38,3 +38,6 @@ Route::get('/contacto', function () {
 Route::get('/tarifas', function () {
     return view('tarifas');
 });
+
+Route::get('/contactus', 'MasterController@contactus');
+Route::post('/contactus', 'MasterController@contactus');

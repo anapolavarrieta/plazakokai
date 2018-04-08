@@ -1,7 +1,95 @@
 @extends('layouts._master')
 
 @section ('content')
-<div class="">
-
+<div class="container">
+    <div class"row">
+        <div class="col-md-12">
+            <br>
+        </div>
+    </div>
+    <div class"row">
+        <div class="containerServ col-md-6">
+            <img src="{{URL::asset('/images/kokai_alberca.jpg')}}" class="imgServ img-responsive " alt="" >
+            <div class="middleServ1">
+                <div class="textServ1">LA ALBERCA</div>
+            </div>
+            <div class="middleServ">
+                <div class="textServ">
+                    <P><br></p>
+                    <p class="font50"><br></p>
+                    <h1 class="bold">LA ALBERCA</h1>
+                    <P>El lugar perfecto para disfrutar del sol y relajarte.</p>
+                    <p class="font50"><br></p>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <img src="{{URL::asset('/images/alberca4.jpg')}}" class="img-responsive" alt="" >
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <img src="{{URL::asset('/images/alberca5.jpg')}}" class="img-responsive" alt="" >
+                        </div>
+                    </div>
+                    <p class="font50"><br></p>
+                </div>
+            </div>
+        </div>
+       <div class="hidden-lg hidden-md col-sm-12 col-xs-12"><br></div>
+       <div class="containerServ col-md-6">
+            <img src="{{URL::asset('/images/kokai_restaurante.jpg')}}" class="imgServ img-responsive " alt="" >
+            <div class="middleServ1">
+                <div class="textServ1">EL RESTAURANTE</div>
+            </div>
+            <div class="middleServ">
+                <div class="textServ">
+                    <P><br></p>
+                    <h1 class="bold">MESÓN ESPAÑOL</h1>
+                    <P>Exquisita y autentica cocina  tradicional espa&ntilde;ola</p>
+                    <P>&ensp;&ensp; &ensp; &ensp; Desayunos Diarios &ensp; &ensp; &ensp; &ensp; 7:00am - 12:00pm</p>
+                    <P>&ensp;&ensp; &ensp;Lunes a Sabados &ensp;&ensp; &ensp; 12:00pm - 10:00pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class"row">
+        <div class="col-md-12">
+            <br>
+        </div>
+    </div>
+    <div class"row">
+        <div class="containerServ col-md-6">
+            <img src="{{URL::asset('/images/kokai_bar.jpg')}}" class="imgServ img-responsive " alt="" >
+            <div class="middleServ1">
+                <div class="textServ1">EL BAR</div>
+            </div>
+            <div class="middleServ">
+                   <div class="textServ">
+                    <P><br></p>
+                    <h1 class="bold">EL BAR</h1>
+                    <P>Ven a disfrutar una copa en compañia de tus amigos y divertirse con deportes, jugar dominó o cartas.</p>
+                    <P>&ensp;&ensp; Lunes a Sabados &ensp; &ensp; 04:00pm - 1:00am</p>
+                </div>
+            </div>
+        </div>
+        <div class="hidden-lg hidden-md col-sm-12 col-xs-12"><br></div>
+         <div class="containerServ col-md-6">
+            <img src="{{URL::asset('/images/kokai_camarote.jpg')}}" class="imgServ img-responsive " alt="" >
+            <div class="middleServ1">
+                <div class="textServ1">EL CAMAROTE</div>
+            </div>
+            <div class="middleServ">
+                <div class="textServ">
+                    <P><br></p>
+                    <h1 class="bold">EL CAMAROTE</h1>
+                    <P>Excelente lugar para disfrutar de shows continuos con una gran variedad de artistas.</p>
+                    <P>Viernes y Sabados</p>
+                    <P>10:30pm - 03:00am</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class"row">
+        <div class="col-md-12">
+            <br>
+        </div>
+    </div>
 </div>
 @stop

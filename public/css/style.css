@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: white;
 }
 
 /*Navigation Bar/Menu*/
@@ -12,6 +12,10 @@ body{
 .navbar-default .navbar-nav>li>a{
     color:white;
     font-size: 150%;
+}
+
+.logo{
+    height:80px;
 }
 
 .imgBanner{
@@ -53,5 +57,165 @@ body{
         background-image: url('/images/fondoPlaya.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        height: 640px;
+}
+
+.imgHab{
+        background-image: url('/images/Habitaciones/standar_doble.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgHab1{
+        background-image: url('/images/Habitaciones/standar_doble1.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgHab2{
+        background-image: url('/images/Habitaciones/standar_doble2.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgHab3{
+        background-image: url('/images/Habitaciones/standar_doble3.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgHab4{
+        background-image: url('/images/Habitaciones/standar_doble4.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgSuit{
+        background-image: url('/images/Habitaciones/suite.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgSuit1{
+        background-image: url('/images/Habitaciones/suite1.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgSuit2{
+        background-image: url('/images/Habitaciones/suite2.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgSuit3{
+        background-image: url('/images/Habitaciones/suite3.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgSuit4{
+        background-image: url('/images/Habitaciones/suite4.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgPH{
+        background-image: url('/images/Habitaciones/pentHouse.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgPH1{
+        background-image: url('/images/Habitaciones/pentHouse1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.iconoHab{
+    height: 34px;
+}
+
+.iconoPH{
+    height: 40px;
+    text-align: center;
+    background-color: red;
+}
+
+.imgServ {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleServ {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-20%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.middleServ1 {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerServ:hover .imgServ{
+  opacity: 0.2;
+}
+
+.containerServ:hover .middleServ1{
+  opacity: 0;
+}
+
+.containerServ:hover .middleServ {
+  opacity: 1;
+}
+
+.textServ {
+  color: black;
+  font-size:200%;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.textServ1 {
+  font-size:270%;
+  color:white;
+  font-weight: bold;
+}
+
+
+.imgTras {
+  height:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group.required.control-label:before{
+   color: red;
+   content: "*";
+   position: absolute;
+   margin-left: -10px;
 }

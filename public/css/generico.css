@@ -2,6 +2,19 @@
     text-align:center;
 }
 
+.font30{
+    font-size:30%;
+
+}
+.font50{
+    font-size:50%;
+
+}
+.font70{
+    font-size:70%;
+
+}
+
 .font100{
     font-size:100%;
 
@@ -69,4 +82,9 @@
 
 .fontBold{
      font-weight: bold;
+}
+
+.justificado{
+    text-align: justify;
+    text-justify: inter-word;
 }

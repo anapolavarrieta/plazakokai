@@ -19,10 +19,10 @@
 	@stack('head')
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     <header class="black">
         <div class="container center">
-            <div class="row">
+            <div class="row font50">
                 <br>
 			</div>
         </div>
@@ -31,7 +31,7 @@
     @if(session('message'))
         <!--div class='alert'>{{ session('message') }}</div-->
     @endif
-    <div class="center">
+    <div class="center black">
         @if (Auth::check())
             @include('layouts.menu')
         @endif
@@ -57,14 +57,15 @@
             <div class="row">
                 <div class="col-md-11">
                 </div>
-                <div class="col-md-1 font150 center">
-                    <a href="/">Inicio</a>
+                <div class="col-md-1 font50 center">
+                    <br>
+                    <!--a href="/"><img src="{{URL::asset('/images/logo.png')}}" class="img-responsive" alt="" ></a-->
                 </div>
             </div>
         </div>
 
     </div>
-    <div class="black">
+    <div class="">
         <div class="container">
             <div class="white">
                 <img src="{{URL::asset('/images/kokaihotel_piedepagina.png')}}" alt="" class="img-responsive">

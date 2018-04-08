@@ -1,7 +1,11 @@
 @extends('layouts._master')
 
 @section ('content')
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+<div class="container">
+    <div class="row white font50">
+        <br>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 
           <!-- Contenedor de los Slide -->
         <div class="carousel-inner">
@@ -33,4 +37,8 @@
             <span class="sr-only">Siguiente hidden-xs hidden-sd</span>
           </a>
     </div>
+    <div class="row white font50">
+        <br>
+    </div>
+</div>
 @stop
