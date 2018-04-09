@@ -1,8 +1,7 @@
-
+<><?xml encoding="UTF-8"?>
 <html lang="es">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<?xml encoding="UTF-8"?>
 	<?php encoding="UTF-8"?>
 </head>
 <body style="background: white; color: black">
