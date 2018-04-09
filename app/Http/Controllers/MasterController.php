@@ -13,9 +13,9 @@ class MasterController extends Controller
 
         $contactName =  urldecode($request->input('nombre'));
         $contactEmail =  urldecode($request->input('correo'));
-        $contactCel =  $request->input('celular');
-        $contactTel =  $request->input('telefono');
-        $contactMessage =  $request->input('mensaje');
+        $contactCel =  urldecode($request->input('celular'));
+        $contactTel =  urldecode($request->input('telefono'));
+        $contactMessage =  urldecode($request->input('mensaje'));
 
 
         $data = array('nombre'=>$contactName, 'correo'=>$contactEmail, 'celular'=>$contactCel, 'telefono'=>$contactTel, 'mensaje'=>$contactMessage);
