@@ -32,7 +32,7 @@
             Correo
         </td>
         <td>
-            {{utf8_encode($correo)}}
+            {{utf8_decode($correo)}}
         </td>
     </tr>
     <tr>
