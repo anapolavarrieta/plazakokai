@@ -11,11 +11,11 @@ class MasterController extends Controller
     {
         //ContactUS::create($request->all());
 
-        $contactName =  "hola";//urldecode($request->input('nombre'));
-        $contactEmail = "hola";// urldecode($request->input('correo'));
-        $contactCel =  "hola";//urldecode($request->input('celular'));
-        $contactTel =  "hola";//urldecode($request->input('telefono'));
-        $contactMessage =  "hola";//urldecode($request->input('mensaje'));
+        $contactName =  urldecode($request->input('nombre'));
+        $contactEmail =  urldecode($request->input('correo'));
+        $contactCel =  urldecode($request->input('celular'));
+        $contactTel =  urldecode($request->input('telefono'));
+        $contactMessage =  urldecode($request->input('mensaje'));
 
 
         $data = array('nombre'=>$contactName, 'correo'=>$contactEmail, 'celular'=>$contactCel, 'telefono'=>$contactTel, 'mensaje'=>$contactMessage);
@@ -29,7 +29,8 @@ class MasterController extends Controller
 
  		//dump("ok");
 
-        return back()->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!');
+        //return back()->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!');
+        return redirect('/')->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!');
         //return view('layouts.prueba');
         //return view('emails.contacto')->with($data);;
     }
