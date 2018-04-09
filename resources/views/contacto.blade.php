@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="row">
-        <form method='GET' action='/contactus/'>
+        <form method='GET' action='/contactus/' accept-charset="UTF-8">
             <div class="col-sm-1 center">
             </div>
             <div class="col-sm-5 center">
