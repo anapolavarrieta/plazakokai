@@ -13,7 +13,13 @@
             <div class="middleServ1">
                 <div class="textServ1">LA ALBERCA</div>
             </div>
-            <div class="middleServ">
+             <div class="hidden-lg hidden-md">
+                <div class="center">
+                    <h1 class="bold">LA ALBERCA</h1>
+                    <P>El lugar perfecto para disfrutar del sol y relajarse.</p>
+                </div>
+            </div>
+            <div class="middleServ hidden-sm hidden-xs">
                 <div class="textServ">
                     <P><br></p>
                     <p class="font50"><br></p>
@@ -38,7 +44,15 @@
             <div class="middleServ1">
                 <div class="textServ1">EL RESTAURANTE</div>
             </div>
-            <div class="middleServ">
+             <div class="hidden-lg hidden-md">
+                <div class="center">
+                    <h1 class="bold">MESÓN ESPAÑOL</h1>
+                    <P>Exquisita y auténtica cocina  tradicional española.</p>
+                    <P>&ensp;&ensp; &ensp; &ensp; Desayunos &ensp; &ensp; &ensp; &ensp; 7:00am - 12:00pm</p>
+                    <P>&ensp;&ensp; &ensp; &ensp;&ensp; Comidas &ensp;&ensp;&ensp;&ensp; &ensp; 12:00pm - 10:00pm</p>
+                </div>
+            </div>
+            <div class="middleServ hidden-sm hidden-xs">
                 <div class="textServ">
                     <P><br></p>
                     <h1 class="bold">MESÓN ESPAÑOL</h1>
@@ -60,7 +74,14 @@
             <div class="middleServ1">
                 <div class="textServ1">EL BAR</div>
             </div>
-            <div class="middleServ">
+            <div class="hidden-lg hidden-md">
+                <div class="center">
+                    <h1 class="bold">EL BAR</h1>
+                    <P>Ven a disfrutar una copa en compañia de tus amigos y divertirse viendo deportes, jugar dominó o cartas.</p>
+                    <P>&ensp;&ensp; Lunes a Sabados &ensp; &ensp; 04:00pm - 1:00am</p>
+                </div>
+            </div>
+            <div class="middleServ hidden-sm hidden-xs">
                    <div class="textServ">
                     <P><br></p>
                     <h1 class="bold">EL BAR</h1>
@@ -75,7 +96,15 @@
             <div class="middleServ1">
                 <div class="textServ1">EL CAMAROTE</div>
             </div>
-            <div class="middleServ">
+            <div class="hidden-lg hidden-md">
+                <div class="center">
+                    <h1 class="bold">EL CAMAROTE</h1>
+                    <P>Excelente lugar para disfrutar de shows continuos con una gran variedad de artistas.</p>
+                    <P>Viernes y Sabados</p>
+                    <P>10:30pm - 03:00am</p>
+                </div>
+            </div>
+            <div class="middleServ hidden-sm hidden-xs">
                 <div class="textServ">
                     <P><br></p>
                     <h1 class="bold">EL CAMAROTE</h1>
