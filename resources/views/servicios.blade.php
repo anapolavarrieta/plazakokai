@@ -10,7 +10,7 @@
     <div class"row">
         <div class="containerServ col-md-6">
             <img src="{{URL::asset('/images/kokai_alberca.jpg')}}" class="imgServ img-responsive " alt="" >
-            <div class="middleServ1">
+            <div class="middleServ1 hidden-sm hidden-xs">
                 <div class="textServ1">LA ALBERCA</div>
             </div>
              <div class="hidden-lg hidden-md">
@@ -41,7 +41,7 @@
        <div class="hidden-lg hidden-md col-sm-12 col-xs-12"><br></div>
        <div class="containerServ col-md-6">
             <img src="{{URL::asset('/images/kokai_restaurante.jpg')}}" class="imgServ img-responsive " alt="" >
-            <div class="middleServ1">
+            <div class="middleServ1 hidden-sm hidden-xs">
                 <div class="textServ1">EL RESTAURANTE</div>
             </div>
              <div class="hidden-lg hidden-md">
@@ -71,7 +71,7 @@
     <div class"row">
         <div class="containerServ col-md-6">
             <img src="{{URL::asset('/images/kokai_bar.jpg')}}" class="imgServ img-responsive " alt="" >
-            <div class="middleServ1">
+            <div class="middleServ1 hidden-sm hidden-xs">
                 <div class="textServ1">EL BAR</div>
             </div>
             <div class="hidden-lg hidden-md">
@@ -93,7 +93,7 @@
         <div class="hidden-lg hidden-md col-sm-12 col-xs-12"><br></div>
          <div class="containerServ col-md-6">
             <img src="{{URL::asset('/images/kokai_camarote.jpg')}}" class="imgServ img-responsive " alt="" >
-            <div class="middleServ1">
+            <div class="middleServ1 hidden-sm hidden-xs">
                 <div class="textServ1">EL CAMAROTE</div>
             </div>
             <div class="hidden-lg hidden-md">
