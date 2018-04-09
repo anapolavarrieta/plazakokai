@@ -27,10 +27,8 @@ class MasterController extends Controller
 			$message->subject('[Contacto] Página Hotel');
  		});
 
-        //dump($request);
-        //dump($contactEmail);
-        //return back()->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!'.$res);
+        return back()->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!'.$res);
         //return view('layouts.prueba');
-        return view('emails.contacto')->with($data);;
+        //return view('emails.contacto')->with($data);;
     }
 }
