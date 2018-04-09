@@ -11,8 +11,8 @@ class MasterController extends Controller
     {
         //ContactUS::create($request->all());
 
-        $contactName =  $request->input('nombre');
-        $contactEmail =  $request->input('correo');
+        $contactName =  urldecode($request->input('nombre'));
+        $contactEmail =  urldecode($request->input('correo'));
         $contactCel =  $request->input('celular');
         $contactTel =  $request->input('telefono');
         $contactMessage =  $request->input('mensaje');
