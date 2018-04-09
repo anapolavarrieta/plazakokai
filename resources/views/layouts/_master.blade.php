@@ -8,7 +8,7 @@
 	<title>
 		@yield ('title', 'Plaza Kokai')
 	</title>
-	<meta charset='utf-8'>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href='{{URL::asset('/css/generico.css')}}' type='text/css' rel='stylesheet'>
 	<link href='{{URL::asset('/css/style.css')}}' type='text/css' rel='stylesheet'>
