@@ -5,15 +5,15 @@
 
 </head>
 <body style="background: white; color: black; margin:30px;">
-<h1 style="background-color:#00336c;height:120px;color:white;vertical-align: middle;margin:20px;width:1200px">
+<h1 style="background-color:#00336c;height:120px;color:white;vertical-align: middle;width:1200px">
     <a href="www.hotelkokai.com">
-        <img class="logo" src="{{URL::asset('/images/logo.jpg')}}" style="height:100px;margin:5px" alt="Visitenos" >
+        <img class="logo" src="{{URL::asset('/images/logo.jpg')}}" style="height:100px;margin-left:20px" alt="Visitenos" >
     </a>Contacto con en el Hotel Plaza Kokai Cancún<br>
 </h1>
-<p style="margin-left:20px;">Estimad@ {{$nombre}};</p>
-<b style="margin-left:20px;">¡Gracias por contactarnos, nos pondremos en contacto con usted tan pronto leamos su mensaje!</b>
-<p style="margin-left:40px;">La información solicitada es la siguiente:</p>
-<table style="margin-left:40px;">
+<p>Estimad@ {{$nombre}};</p>
+<b>¡Gracias por contactarnos, nos pondremos en contacto con usted tan pronto leamos su mensaje!</b>
+<p>La información solicitada es la siguiente:</p>
+<table>
     <tr>
         <td style="text-align: right;">
             <b>Fecha:</b>
@@ -68,8 +68,8 @@
     </tr>
 </table>
 
-<div style="background-color:#74cbdf;height:150px;vertical-align: middle;margin:20px;width:1200px">
-    <p style="margin-left:40px;">
+<div style="background-color:#74cbdf;height:150px;width:1200px">
+    <p>
         <b>
         <br>
         Atte.
