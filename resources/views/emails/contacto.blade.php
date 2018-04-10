@@ -10,7 +10,7 @@
         <img class="logo" src="{{URL::asset('/images/logo.jpg')}}" style="height:100px;margin:5px" alt="Visitenos" >
     </a>Contacto con en el Hotel Plaza Kokai Cancún<br>
 </h1>
-<p style="margin-left:20px;">Estimado {{$nombre}};</p>
+<p style="margin-left:20px;">Estimad@ {{$nombre}};</p>
 <b style="margin-left:20px;">¡Gracias por contactarnos, nos pondremos en contacto con usted tan pronto leamos su mensaje!</b>
 <p style="margin-left:40px;">La información solicitada es la siguiente:</p>
 <table style="margin-left:40px;">
@@ -69,7 +69,7 @@
 </table>
 
 <div style="background-color:#74cbdf;height:100px;vertical-align: middle;margin:20px;">
-    <p style=margin-left:20px;">
+    <p style="margin-left:40px;">
         <b>Atte.
         <br>
         <i>Hotel Plaza Kokai Cancún</i>
@@ -79,8 +79,9 @@
         <br>
         TU HOTEL EN EL CARIBE MEXICANO
         <br>
-        <a href="www.hotelkokai.com">www.hotelkokai.com</a> | + 52 (998) 193 3170</p>
+        <a href="www.hotelkokai.com">www.hotelkokai.com</a> | + 52 (998) 193 3170
         </b>
+    </p>
 </div>
 </body>
 </html>
