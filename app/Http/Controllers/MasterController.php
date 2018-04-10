@@ -19,9 +19,9 @@ class MasterController extends Controller
 
 
         $data = array('nombre'=>$contactName, 'correo'=>$contactEmail, 'celular'=>$contactCel, 'telefono'=>$contactTel, 'mensaje'=>$contactMessage);
-        $emails = ['goop.19@gmail.com', 'gaby@kokai.com.mx',$contactEmail];
+        $emails = array('goop.19@gmail.com', 'gaby@kokai.com.mx',$correo);
 
-        $res = Mail::send('emails.contacto',$data, function ($message) {
+        $res = Mail::send('emails.contacto',$data, function ($message) use ($emails) {
 			$message->from('ventash@kokai.com.mx','Hotel Kokai');
 			$message->to($emails);
 			$message->subject('[Contacto] Página Hotel');
@@ -72,13 +72,13 @@ class MasterController extends Controller
 
         $emails = array('goop.19@gmail.com', 'gaby@kokai.com.mx',$correo);
 
-        $res = Mail::send('emails.reserva',$data, function ($message) {
+        $res = Mail::send('emails.reserva',$data, function ($message) use ($emails) {
 			$message->from('ventash@kokai.com.mx','Hotel Kokai');
 			$message->to($emails);
 			$message->subject('[Reservación] Página Hotel');
  		});
 
- 		//dump("ok");
+ 		//dump($emails);
 
         //return back()->with('success', '¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!');
         //return view('inicio')->with('success', '¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!');
