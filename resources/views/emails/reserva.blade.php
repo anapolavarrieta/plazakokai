@@ -80,7 +80,7 @@
             <b>Estandard Doble</b>
         </td>
         <td>
-            {{estDbl}}
+            {{$estDbl}}
         </td>
     </tr>
     <tr>
