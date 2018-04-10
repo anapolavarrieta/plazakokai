@@ -126,9 +126,9 @@
 
 <div style="background-color:#74cbdf;height:100px;vertical-align: middle;margin:20px;">
     <p style=margin-left:20px;">
-        Atte.
+        <b>Atte.
         <br>
-        Reservaciones Hotel Plaza Kokai Cancún
+        <i>Reservaciones Hotel Plaza Kokai Cancún</i>
         <br>
         <a href="mailto:ventash@kokai.com.mx?Subject=[Contacto Reserva] Correo Página">ventash@kokai.com.mx</a>
         <br>
@@ -136,6 +136,7 @@
         TU HOTEL EN EL CARIBE MEXICANO
         <br>
         <a href="www.hotelkokai.com">www.hotelkokai.com</a> | + 52 (998) 193 3170</p>
+        </b>
 </div>
 </body>
 </html>
