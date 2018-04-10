@@ -5,11 +5,11 @@
 
 </head>
 <body style="background: white; color: black">
-<h1 class="center">Información de Contacto de la página</h1>
+<h1 style="background-color:powderblue;">Información de Contacto de la Página</h1>
 <table>
     <tr>
-        <td>
-            Fecha
+        <td style="text-align: right;">
+            <b>Fecha</b>
         </td>
         <td>
             <?php
@@ -20,40 +20,40 @@
         </td>
     </tr>
     <tr>
-        <td>
-            Cliente
+        <td style="text-align: right;">
+            <b>Nombre</b>
         </td>
         <td>
             {{$nombre}}
         </td>
     </tr>
     <tr>
-        <td>
-            Correo
+        <td style="text-align: right;">
+            <b>Correo</b>
         </td>
         <td>
-            {{utf8_decode($correo)}}
+            {{$correo}}
         </td>
     </tr>
     <tr>
-        <td>
-            Celular
+        <td style="text-align: right;">
+            <b>Celular</b>
         </td>
         <td>
             {{$celular}}
         </td>
     </tr>
     <tr>
-        <td>
-            Teléfono
+        <td style="text-align: right;">
+            <b>Teléfono</b>
         </td>
         <td>
             {{$telefono}}
         </td>
     </tr>
     <tr>
-        <td>
-            Mensaje
+        <td style="text-align: right;">
+            <b>Mensaje</b>
         </td>
         <td>
             {{$mensaje}}

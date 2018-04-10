@@ -22,7 +22,7 @@ class MasterController extends Controller
 
 
         $res = Mail::send('emails.contacto',$data, function ($message) {
-			$message->from('gaby@kokai.com.mx','Hotel Kokai');
+			$message->from('reservaciones@hotelkokai.com','Hotel Kokai');
 			$message->to('goop.19@gmail.com');
 			$message->subject('[Contacto] Página Hotel');
  		});
@@ -52,16 +52,29 @@ class MasterController extends Controller
         $estKing =  urldecode($request->input('estKing'));
         $suite =  urldecode($request->input('suite'));
         $ph =  urldecode($request->input('ph'));
-        $comentarios =  urldecode($request->input('mensaje'));
+        $comentarios =  urldecode($request->input('comentarios'));
 
 
-        $data = array('nombre'=>$nombre, 'correo'=>$correo, 'celular'=>$contactCel, 'telefono'=>$contactTel, 'mensaje'=>$contactMessage);
+        $data = array('nombre'=>$nombre,
+                'correo'=>$correo,
+                'telefono'=>$telefono,
+                'correo'=>$correo,
+                'adultos'=>$adultos,
+                'niños'=>$niños,
+                'habitaciones'=>$habitaciones,
+                'fechaEntrada'=>$fechaEntrada,
+                'fechaSalida'=>$fechaSalida,
+                'estDbl'=>$estDbl,
+                'estKing'=>$estKing,
+                'suite'=>$suite,
+                'ph'=>$ph,
+                'comentarios'=>$comentarios);
 
 
-        $res = Mail::send('emails.contacto',$data, function ($message) {
-			$message->from('gaby@kokai.com.mx','Hotel Kokai');
+        $res = Mail::send('emails.reserva',$data, function ($message) {
+			$message->from('reservaciones@hotelkokai.com','Hotel Kokai');
 			$message->to('goop.19@gmail.com');
-			$message->subject('[Contacto] Página Hotel');
+			$message->subject('[Reservación] Página Hotel');
  		});
 
  		//dump("ok");
