@@ -150,7 +150,7 @@
                             </h3>
                         </div>
                          <div class="row center">
-                                Cama King Size y Sofa Cama (4 <i class="glyphicon glyphicon-user black"></i>)
+                                Cama King Size y Sofá Cama (4 <i class="glyphicon glyphicon-user black"></i>)
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
@@ -182,7 +182,7 @@
                             </h3>
                         </div>
                          <div class="row center">
-                            2 Habitaciones | 2 Baños | 2 Sofas Camas (8 <i class="glyphicon glyphicon-user black"></i>)
+                            2 Habitaciones | 2 Baños | 2 Sofás Camas (8 <i class="glyphicon glyphicon-user black"></i>)
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">

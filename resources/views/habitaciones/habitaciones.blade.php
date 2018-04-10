@@ -102,7 +102,7 @@
                 </h3>
             </div>
             <div class="row center font120">
-                    Cama King Size
+                    Cama King Size y Sofá Cama
             </div>
             <div class="row center font120">
                  <br>
