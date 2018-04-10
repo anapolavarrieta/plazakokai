@@ -44,7 +44,7 @@ class MasterController extends Controller
         $correo =  urldecode($request->input('correo'));
         $telefono =  urldecode($request->input('telefono'));
         $adultos =  urldecode($request->input('adultos'));
-        $niños =  urldecode($request->input('niños'));
+        $ninos =  urldecode($request->input('ninos'));
         $habitaciones =  urldecode($request->input('habitaciones'));
         $fechaEntrada =  urldecode($request->input('fechaEntrada'));
         $fechaSalida =  urldecode($request->input('fechaSalida'));
@@ -60,7 +60,7 @@ class MasterController extends Controller
                 'telefono'=>$telefono,
                 'correo'=>$correo,
                 'adultos'=>$adultos,
-                'niños'=>$niños,
+                'ninos'=>$ninos,
                 'habitaciones'=>$habitaciones,
                 'fechaEntrada'=>$fechaEntrada,
                 'fechaSalida'=>$fechaSalida,

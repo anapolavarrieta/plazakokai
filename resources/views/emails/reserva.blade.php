@@ -5,7 +5,7 @@
 
 </head>
 <body style="background: white; color: black; margin:30px;">
-<h1 style="background-color:#00336c;height:120px;color:white;vertical-align: middle;width:1200px">
+<h1 style="background-color:#00336c;height:120px;color:white;vertical-align: middle;width:1000px">
     <a href="www.hotelkokai.com">
         <img class="logo" src="{{URL::asset('/images/logo.jpg')}}" style="height:100px;margin-left:20px" alt="Visitenos" >
     </a>Reservación en el Hotel Plaza Kokai Cancún<br>
@@ -55,7 +55,7 @@
             <b>Niños:</b>
         </td>
         <td>
-            {{$niños}}
+            {{$ninos}}
         </td>
     </tr>
     <tr>

@@ -33,8 +33,8 @@
                                 <input type='number' name='adultos' id='adultos' step='1' value='' class='float form-control' min="1" max="200" required>
                             </div>
                             <div class="col-sm-2 form-group required control-label" align="center">
-                                <label for='niños'>Niños</label>
-                                <input type='number' name='niños' id='niños' step='1' value='' class='float form-control' min="0" max="152" required>
+                                <label for='ninos'>Niños</label>
+                                <input type='number' name='ninos' id='ninos' step='1' value='' class='float form-control' min="0" max="152" required>
                             </div>
                             <div class="col-sm-3 form-group required control-label" align="center">
                                 <label for='habitaciones'>Habitaciones</label>
