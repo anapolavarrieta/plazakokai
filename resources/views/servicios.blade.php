@@ -9,7 +9,9 @@
     </div>
     <div class"row">
         <div class="containerServ col-md-6">
-            <img src="{{URL::asset('/images/kokai_alberca.png')}}" class="imgServ img-responsive " alt="" >
+            <div class="middleServ1">
+                <img src="{{URL::asset('/images/kokai_alberca.png')}}" class="imgServ img-responsive " alt="" >
+            </div>
             <!--div class="middleServ1 hidden-sm hidden-xs">
                 <div class="textServ1">LA ALBERCA</div>
             </div-->
@@ -41,7 +43,9 @@
         </div>
        <div class="hidden-lg hidden-md col-sm-12 col-xs-12"><br></div>
        <div class="containerServ col-md-6">
-            <img src="{{URL::asset('/images/kokai_restaurante.png')}}" class="imgServ img-responsive " alt="" >
+            <div class="middleServ1">
+                <img src="{{URL::asset('/images/kokai_restaurante.png')}}" class="imgServ img-responsive " alt="" >
+            </div>
             <!--div class="middleServ1 hidden-sm hidden-xs">
                 <div class="textServ1">EL RESTAURANTE</div>
             </div-->
@@ -72,10 +76,12 @@
     </div>
     <div class"row">
         <div class="containerServ col-md-6">
-            <img src="{{URL::asset('/images/kokai_bar.png')}}" class="imgServ img-responsive " alt="" >
-            <div class="middleServ1 hidden-sm hidden-xs">
-                <!--div class="textServ1">EL BAR</div-->
+            <div class="middleServ1">
+                <img src="{{URL::asset('/images/kokai_bar.png')}}" class="img-responsive " alt="" >
             </div>
+            <!--div class="middleServ1 hidden-sm hidden-xs">
+                <div class="textServ1">EL BAR</div>
+            </div-->
             <!--div class="hidden-lg hidden-md">
                 <div class="center">
                     <h1 class="bold">EL BAR</h1>
@@ -95,10 +101,12 @@
         </div>
         <div class="hidden-lg hidden-md col-sm-12 col-xs-12"><br></div>
          <div class="containerServ col-md-6">
-            <img src="{{URL::asset('/images/kokai_camarote.png')}}" class="imgServ img-responsive " alt="" >
-            <div class="middleServ1 hidden-sm hidden-xs">
-                <!--div class="textServ1">EL CAMAROTE</div-->
+            <div class="middleServ1">
+                <img src="{{URL::asset('/images/kokai_camarote.png')}}" class="img-responsive " alt="" >
             </div>
+            <!--div class="middleServ1 hidden-sm hidden-xs">
+                <div class="textServ1">EL CAMAROTE</div>
+            </div-->
             <!--div class="hidden-lg hidden-md">
                 <div class="center">
                     <h1 class="bold">EL CAMAROTE</h1>
