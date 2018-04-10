@@ -124,7 +124,7 @@
     </tr>
 </table>
 
-<div style="background-color:#74cbdf;height:150px;color:white;vertical-align: middle;margin:20px;">
+<div style="background-color:#74cbdf;height:100px;vertical-align: middle;margin:20px;">
     <p style=padding:20px;">
         Atte.
         <br>
