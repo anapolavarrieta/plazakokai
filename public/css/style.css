@@ -163,13 +163,15 @@ body{
 }
 
 .middleServ {
-  transition: .5s ease;
+
   opacity: 0;
   position: absolute;
-  top: 40%;
+  top: 0%;
+  /*
+  transition: .5s ease;
   left: 30%;
   transform: translate(-20%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)*/
 }
 
 .middleServ1 {
