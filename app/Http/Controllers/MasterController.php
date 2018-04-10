@@ -70,7 +70,7 @@ class MasterController extends Controller
                 'ph'=>$ph,
                 'comentarios'=>$comentarios);
 
-        $emails = ['goop.19@gmail.com', 'gaby@kokai.com.mx',$correo];
+        $emails = array('goop.19@gmail.com', 'gaby@kokai.com.mx',$correo);
 
         $res = Mail::send('emails.reserva',$data, function ($message) {
 			$message->from('ventash@kokai.com.mx','Hotel Kokai');
