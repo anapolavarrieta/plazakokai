@@ -12,7 +12,7 @@
                         <a href="www.hotelkokai.com">
                             <img class="logo" src="{{URL::asset('/images/logo.jpg')}}" style="height:100px;margin-left:20px" alt="Visitenos" >
                         </a>
-                        <h1>&ensp;&ensp;&ensp;Contacto con en el Hotel Plaza Kokai Cancún&ensp;&ensp;&ensp;</h1>
+                        <h1>Contacto con en el Hotel Plaza Kokai Cancún</h1>
                     </td>
                 </tr>
             </table>
@@ -110,7 +110,7 @@
                             <a href="mailto:ventash@kokai.com.mx?Subject=[Contacto Reserva] Correo Página">ventash@kokai.com.mx</a>
                             <br>
                             <br>
-                            &ensp;&ensp;&ensp;TU HOTEL EN EL CARIBE MEXICANO&ensp;&ensp;&ensp;
+                            TU HOTEL EN EL CARIBE MEXICANO
                             <br>
                             <a href="www.hotelkokai.com">www.hotelkokai.com</a> | + 52 (998) 193 3170
                             <br>
