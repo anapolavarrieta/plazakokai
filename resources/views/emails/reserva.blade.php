@@ -5,7 +5,7 @@
 
 </head>
 <body style="background: white; color: black; margin:30px;">
-<h1 style="background-color:#00336c;height:120px;color:white;vertical-align: middle;width:1000px">
+<h1 style="background-color:#00336c;height:120px;color:white;vertical-align: middle;">
     <a href="www.hotelkokai.com">
         <img class="logo" src="{{URL::asset('/images/logo.jpg')}}" style="height:100px;margin-left:20px" alt="Visitenos" >
     </a>Reservación en el Hotel Plaza Kokai Cancún<br>
@@ -125,7 +125,7 @@
 </table>
 <p>Su reservación esta sujeta a disponibilidad y será confirmada por correo electrónico o por teléfono.</p>
 
-<div style="background-color:#74cbdf;height:150px;width:1200px">
+<div style="background-color:#74cbdf;height:170px;width:1200px">
     <p>
         <b>
          <br>
