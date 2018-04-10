@@ -5,7 +5,7 @@
 
 </head>
 <body style="background: white; color: black; margin:30px;">
-<h1 style="background-color:#00336c;height:120px;color:white;vertical-align: middle;margin:20px;">
+<h1 style="background-color:#00336c;height:120px;color:white;vertical-align: middle;margin:20px;width:1200px">
     <a href="www.hotelkokai.com">
         <img class="logo" src="{{URL::asset('/images/logo.jpg')}}" style="height:100px;margin:5px" alt="Visitenos" >
     </a>Contacto con en el Hotel Plaza Kokai Cancún<br>
@@ -68,9 +68,11 @@
     </tr>
 </table>
 
-<div style="background-color:#74cbdf;height:100px;vertical-align: middle;margin:20px;">
+<div style="background-color:#74cbdf;height:150px;vertical-align: middle;margin:20px;width:1200px">
     <p style="margin-left:40px;">
-        <b>Atte.
+        <b>
+        <br>
+        Atte.
         <br>
         <i>Hotel Plaza Kokai Cancún</i>
         <br>

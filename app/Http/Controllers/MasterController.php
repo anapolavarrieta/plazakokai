@@ -12,13 +12,13 @@ class MasterController extends Controller
         //ContactUS::create($request->all());
 
         $contactName =  urldecode($request->input('nombre'));
-        $contactEmail =  urldecode($request->input('correo'));
+        $correo =  urldecode($request->input('correo'));
         $contactCel =  urldecode($request->input('celular'));
         $contactTel =  urldecode($request->input('telefono'));
         $contactMessage =  urldecode($request->input('mensaje'));
 
 
-        $data = array('nombre'=>$contactName, 'correo'=>$contactEmail, 'celular'=>$contactCel, 'telefono'=>$contactTel, 'mensaje'=>$contactMessage);
+        $data = array('nombre'=>$contactName, 'correo'=>$correo, 'celular'=>$contactCel, 'telefono'=>$contactTel, 'mensaje'=>$contactMessage);
         $emails = array('goop.19@gmail.com', 'gaby@kokai.com.mx',$correo);
 
         $res = Mail::send('emails.contacto',$data, function ($message) use ($emails) {
@@ -31,9 +31,9 @@ class MasterController extends Controller
 
         //return back()->with('success', '¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!');
         //return view('inicio')->with('success', '¡Gracias por contactarnos ,nos pondremos en contacto con usted tan pronto leamos su mensaje!');
-        return view('inicio')->with(['tipoMensaje'=>'success','mensaje'=>'¡Gracias por contactarnos, nos pondremos en contacto con usted tan pronto leamos su mensaje!']);
+        ///return view('inicio')->with(['tipoMensaje'=>'success','mensaje'=>'¡Gracias por contactarnos, nos pondremos en contacto con usted tan pronto leamos su mensaje!']);
         //return view('layouts.prueba');
-        //return view('emails.contacto')->with($data);;
+        return view('emails.contacto')->with($data);;
     }
 
     public function reserva(Request $request)
@@ -82,8 +82,8 @@ class MasterController extends Controller
 
         //return back()->with('success', '¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!');
         //return view('inicio')->with('success', '¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!');
-        return view('inicio')->with(['tipoMensaje'=>'success','mensaje'=>'¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!']);
+        ///return view('inicio')->with(['tipoMensaje'=>'success','mensaje'=>'¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!']);
         //return view('layouts.prueba');
-        ///return view('emails.reserva')->with($data);;
+        return view('emails.reserva')->with($data);;
     }
 }
