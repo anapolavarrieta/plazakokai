@@ -1,6 +1,6 @@
 <div class="container-center">
     <div class="row">
-        @if ($tipoMensaje = 'success')
+        @if (! empty($tipoMensaje) and ! empty($mensaje) and $tipoMensaje = 'success')
             <div class="col-sm-12 align-self-center alert">
                 <span class="close" data-dismiss="alert">&times;</span>
                 <div class="alert-success">
