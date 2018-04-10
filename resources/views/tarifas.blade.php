@@ -109,7 +109,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 center fontBold font150">
+                    <div class="col-md-1 center fontBold font150">
+                    </div>
+                    <div class="col-md-4 center fontBold font150">
                         Reserva en la página y el desayuno va por nuestra cuenta.
                     </div>
                 </div>
