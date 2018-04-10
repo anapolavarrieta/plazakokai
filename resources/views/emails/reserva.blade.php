@@ -5,11 +5,12 @@
 
 </head>
 <body style="background: white; color: black">
-<h1 class="center">Información de Contacto de la Página</h1>
+<h1 class="center"><a href="www.hotelkokai.com"><img class="logo" src="{{URL::asset('/images/logo.jpg')}}" class="img-responsive" alt="" ></a>Reservación de la Página</h1>
+
 <table>
     <tr>
         <td style="text-align: right;">
-            <b>Fecha</b>
+            <b>Fecha:</b>
         </td>
         <td>
             <?php

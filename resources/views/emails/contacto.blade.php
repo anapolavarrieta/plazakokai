@@ -5,7 +5,7 @@
 
 </head>
 <body style="background: white; color: black">
-<h1 style="background-color:powderblue;">Información de Contacto de la Página</h1>
+<h1 style="background-color:lightblue;">Información de Contacto de la Página</h1>
 <table>
     <tr>
         <td style="text-align: right;">
