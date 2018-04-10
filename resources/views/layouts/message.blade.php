@@ -1,10 +1,10 @@
 <div class="container-center">
     <div class="row">
-        @if ($message = Session::get('success'))
+        @if ($tipoMensaje = 'success')
             <div class="col-sm-12 align-self-center alert">
                 <span class="close" data-dismiss="alert">&times;</span>
                 <div class="alert-success">
-                    <strong>{{ $message }}</strong>
+                    <strong>{{ $mensaje }}</strong>
                 </div>
 
             </div>
