@@ -41,3 +41,6 @@ Route::get('/tarifas', function () {
 
 Route::get('/contactus', 'MasterController@contactus');
 Route::post('/contactus', 'MasterController@contactus');
+
+Route::get('/reserva', 'MasterController@reserva');
+Route::post('/reserva', 'MasterController@reserva');

@@ -15,7 +15,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <form method='GET' action='/contactus/'>
+                        <form method='GET' action='/reserva/'>
                             <div class="col-sm-6 form-group required control-label" align="left">
                                 <label for='nombre'>Nombre Reservación</label>
                                 <input type='text' name='nombre' id='nombre' value=''  class="form-control" required>
@@ -25,16 +25,16 @@
                                 <input type='text' name='correo' id='correo' value=''  class="form-control" required>
                             </div>
                             <div class="col-sm-5 form-group required control-label" align="left">
-                                <label for='celular'>Telefono <span class="font70"> ¿A dónde podemos llamarle?</span></label>
-                                <input type='text' name='celular' id='celular' value=''  class="form-control" required>
+                                <label for='telefono'>Telefono <span class="font70"> ¿A dónde podemos llamarle?</span></label>
+                                <input type='text' name='telefono' id='telefono' value=''  class="form-control" required>
                             </div>
                             <div class="col-sm-2 form-group required control-label" align="center">
                                 <label for='adultos'>Adultos</label>
-                                <input type='number' name='adultos' id='adultos' step='1' value='' class='float form-control' required>
+                                <input type='number' name='adultos' id='adultos' step='1' value='' class='float form-control' min="1" required>
                             </div>
                             <div class="col-sm-2 form-group required control-label" align="center">
                                 <label for='niños'>Niños</label>
-                                <input type='number' name='niños' id='niños' step='1' value='' class='float form-control' required>
+                                <input type='number' name='niños' id='niños' step='1' value='' class='float form-control' min="0" required>
                             </div>
                             <div class="col-sm-3 form-group required control-label" align="center">
                                 <label for='habitaciones'>Habitaciones</label>
@@ -61,19 +61,19 @@
                                 </div>
                                 <div class="col-sm-2 " align="center">
                                     <label for='estDbl'>Estandard Doble</label>
-                                    <input type='number' name='estDbl' id='estDbl' step='1' value='' class='float form-control'>
+                                    <input type='number' name='estDbl' id='estDbl' step='1' value='' class='float form-control' min="1" max="46">
                                 </div>
                                 <div class="col-sm-2 " align="center">
                                     <label for='estKing'>Estandard King</label>
-                                    <input type='number' name='estKing' id='estKing' step='1' value='' class='float form-control'>
+                                    <input type='number' name='estKing' id='estKing' step='1' value='' class='float form-control' min="1" max="46">
                                 </div>
                                  <div class="col-sm-2 " align="center">
                                     <label for='suite'>Junior<br> Suite</label>
-                                    <input type='number' name='suite' id='suite' step='1' value='' class='float form-control'>
+                                    <input type='number' name='suite' id='suite' step='1' value='' class='float form-control' min="1" max="2">
                                 </div>
                                 <div class="col-sm-2" align="center">
                                     <label for='ph'>Pent-<br>House</label>
-                                    <input type='number' name='ph' id='ph' step='1' value='' class='float form-control'>
+                                    <input type='number' name='ph' id='ph' step='1' value='' class='float form-control' min="1" max="1">
                                 </div>
                             </div>
                             <div class="col-sm-12 " align="left">
@@ -88,7 +88,7 @@
                                 <br>
                             </div>
                             <div class="col-sm-10 " align="center">
-                                <input type='submit' value='Reserva' class='btn btn-primary btn-small'>
+                                <input type='submit' value='¡RESEVA YA!' class='btn btn-primary btn-small'>
                             </div>
                             <div class="col-sm-10 " align="left">
                                 <br>
