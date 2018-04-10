@@ -11,7 +11,7 @@
     </a>Reservación en el Hotel Plaza Kokai Cancún<br>
 </h1>
 <p style="margin-left:20px;">Estimad@ {{$nombre}};</p>
-<b style="margin-left:20px;">¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!</b>
+<b style="margin-left:20px;">¡Gracias por reservar con nosotros! Nos pondremos en contacto con usted tan pronto confirmemos disponibilidad y para darle más detalles de su reservación.</b>
 <p style="margin-left:40px;">La información solicitada es la siguiente:</p>
 <table style="margin-left:40px;">
     <tr>
@@ -123,6 +123,7 @@
         </td>
     </tr>
 </table>
+<p style="margin-left:20px;">Su reservación esta sujeta a disponibilidad y será confirmada por correo electrónico o por teléfono.</p>
 
 <div style="background-color:#74cbdf;height:100px;vertical-align: middle;margin:20px;">
     <p style="margin-left:40px;">

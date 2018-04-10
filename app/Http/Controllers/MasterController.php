@@ -82,8 +82,8 @@ class MasterController extends Controller
 
         //return back()->with('success', '¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!');
         //return view('inicio')->with('success', '¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!');
-        return view('inicio')->with(['tipoMensaje'=>'success','mensaje'=>'¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!']);
+        ///return view('inicio')->with(['tipoMensaje'=>'success','mensaje'=>'¡Gracias por reservar con nosotros, nos pondremos en contacto con usted tan pronto confirmemos disponibilidad!']);
         //return view('layouts.prueba');
-        //return view('emails.reserva')->with($data);;
+        return view('emails.reserva')->with($data);;
     }
 }
