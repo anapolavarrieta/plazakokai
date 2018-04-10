@@ -148,7 +148,7 @@
                             </h3>
                         </div>
                          <div class="row center">
-                                Cama King Size
+                                Cama King Size y Sofa Cama (4 <i class="glyphicon glyphicon-user black"></i>)
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
@@ -180,11 +180,11 @@
                             </h3>
                         </div>
                          <div class="row center">
-                            2 Habitaciones | 2 Baños | 2 Sofas Camas
+                            2 Habitaciones | 2 Baños | 2 Sofas Camas (8 <i class="glyphicon glyphicon-user black"></i>)
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
-                                $ 0.00 x Noche
+                                $ 1750 x Noche
                             </h3>
                         </div>
                     </div>
