@@ -108,7 +108,8 @@
                         <h2 class="fontBold">T A R I F A S</h2>
                     </div>
                 </div>
-                <div class="row col-md-6">
+                <div class="row">
+                    <div class="col-md-6 center">
                         Reserva con nosotros por aquí y el desayuno va por nuestra cuenta.
                 </div>
                 <div class="row">
