@@ -32,7 +32,7 @@
             <b>Correo</b>
         </td>
         <td>
-            {{$correo)}}
+            {{$correo}}
         </td>
     </tr>
     <tr>
