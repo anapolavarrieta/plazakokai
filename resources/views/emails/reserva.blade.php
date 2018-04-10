@@ -4,10 +4,16 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 </head>
-<body style="background: white; color: black">
-<h1 class="center"><a href="www.hotelkokai.com"><img class="logo" src="{{URL::asset('/images/logo.jpg')}}" class="img-responsive" alt="" ></a>Reservación de la Página</h1>
-
-<table>
+<body style="background: white; color: black; margin:30px;">
+<h1 style="background-color:#00336c;height:120px;color:white;vertical-align: middle;margin:20px;">
+    <a href="www.hotelkokai.com">
+        <img class="logo" src="{{URL::asset('/images/logo.jpg')}}" style="height:100px;margin:5px" alt="Visitenos" >
+    </a>Reservación en el Hotel Plaza Kokai Cancún<br>
+</h1>
+<p style="margin-left:20px;">Estimado {{$nombre}};</p>
+<b style="margin-left:20px;">¡Gracias por contactarnos nos pondremos en contacto con usted tan pronto leamos su mensaje!</b>
+<p style="margin-left:40px;">La información solicitada es la siguiente:</p>
+<table style="margin-left:40px;">
     <tr>
         <td style="text-align: right;">
             <b>Fecha:</b>
@@ -22,7 +28,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Nombre</b>
+            <b>Nombre:</b>
         </td>
         <td>
             {{$nombre}}
@@ -30,7 +36,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Correo</b>
+            <b>Correo:</b>
         </td>
         <td>
             {{$correo}}
@@ -38,7 +44,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Adultos</b>
+            <b>Adultos:</b>
         </td>
         <td>
             {{$adultos}}
@@ -46,7 +52,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Niños</b>
+            <b>Niños:</b>
         </td>
         <td>
             {{$niños}}
@@ -54,7 +60,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Habitaciones</b>
+            <b>Habitaciones:</b>
         </td>
         <td>
             {{$habitaciones}}
@@ -62,7 +68,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Fecha Entrada</b>
+            <b>Fecha Entrada:</b>
         </td>
         <td>
             {{$fechaEntrada}}
@@ -70,7 +76,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Fecha Salida</b>
+            <b>Fecha Salida:</b>
         </td>
         <td>
             {{$fechaSalida}}
@@ -78,7 +84,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Estandard Doble</b>
+            <b>Estandard Doble:</b>
         </td>
         <td>
             {{$estDbl}}
@@ -86,7 +92,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Estandard King</b>
+            <b>Estandard King:</b>
         </td>
         <td>
             {{$estKing}}
@@ -94,7 +100,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Junior Suite</b>
+            <b>Junior Suite:</b>
         </td>
         <td>
             {{$suite}}
@@ -102,7 +108,7 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Pent-House</b>
+            <b>Pent-House:</b>
         </td>
         <td>
             {{$ph}}
@@ -110,12 +116,26 @@
     </tr>
     <tr>
         <td style="text-align: right;">
-            <b>Comentarios</b>
+            <b>Comentarios:</b>
         </td>
         <td>
             {{$comentarios}}
         </td>
     </tr>
 </table>
+
+<div style="background-color:#74cbdf;height:150px;color:white;vertical-align: middle;margin:20px;">
+    <p style=padding:20px;">
+        Atte.
+        <br>
+        Reservaciones Hotel Plaza Kokai Cancún
+        <br>
+        <a href="mailto:ventash@kokai.com.mx?Subject=[Contacto Reserva] Correo Página">ventash@kokai.com.mx</a>
+        <br>
+        <br>
+        TU HOTEL EN EL CARIBE MEXICANO
+        <br>
+        <a href="www.hotelkokai.com">www.hotelkokai.com</a> | + 52 (998) 193 3170</p>
+</div>
 </body>
 </html>

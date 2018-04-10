@@ -38,7 +38,7 @@
                             </div>
                             <div class="col-sm-3 form-group required control-label" align="center">
                                 <label for='habitaciones'>Habitaciones</label>
-                                <input type='number' name='habitaciones' id='habitaciones' step='1' value='' class='float form-control' required>
+                                <input type='number' name='habitaciones' id='habitaciones' step='1' value='' class='float form-control' min="1" max="50" required>
                             </div>
                             <div class="col-sm-6 form-group required control-label" align="left">
                                 <label for='fechaEntrada'>Fecha de Entrada</label>
@@ -61,19 +61,19 @@
                                 </div>
                                 <div class="col-sm-2 " align="center">
                                     <label for='estDbl'>Estandard Doble</label>
-                                    <input type='number' name='estDbl' id='estDbl' step='1' value='' class='float form-control' min="1" max="46">
+                                    <input type='number' name='estDbl' id='estDbl' step='1' value='' class='float form-control' min="0" max="46">
                                 </div>
                                 <div class="col-sm-2 " align="center">
                                     <label for='estKing'>Estandard King</label>
-                                    <input type='number' name='estKing' id='estKing' step='1' value='' class='float form-control' min="1" max="46">
+                                    <input type='number' name='estKing' id='estKing' step='1' value='' class='float form-control' min="0" max="46">
                                 </div>
                                  <div class="col-sm-2 " align="center">
                                     <label for='suite'>Junior<br> Suite</label>
-                                    <input type='number' name='suite' id='suite' step='1' value='' class='float form-control' min="1" max="2">
+                                    <input type='number' name='suite' id='suite' step='1' value='' class='float form-control' min="0" max="2">
                                 </div>
                                 <div class="col-sm-2" align="center">
                                     <label for='ph'>Pent-<br>House</label>
-                                    <input type='number' name='ph' id='ph' step='1' value='' class='float form-control' min="1" max="1">
+                                    <input type='number' name='ph' id='ph' step='1' value='' class='float form-control' min="0" max="1">
                                 </div>
                             </div>
                             <div class="col-sm-12 " align="left">
