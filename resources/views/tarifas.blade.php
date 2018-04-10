@@ -109,14 +109,14 @@
                     </div>
                 </div>
                 <div class="row font200">
-                        <br>
+                        Reserva con nosotros por aquí y el desayuno va por nuestra cuenta.
                 </div>
                 <div class="row">
                     <div class="col-md-2 hidden-sm hidden-xs">
                         <div class="row font50">
                             <br>
                         </div>
-                         <img src="{{URL::asset('/images/habitaciones/standar_doble.JPG')}}" class="img-responsive " alt="" >
+                         <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive " alt="" >
                     </div>
                     <div class="col-md-4 black">
                         <div class="row center">
@@ -158,7 +158,7 @@
                         <div class="row font50">
                             <br>
                         </div>
-                       <img src="{{URL::asset('/images/habitaciones/suite2.JPG')}}" class="img-responsive " alt="" >
+                       <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive " alt="" >
                     </div>
                 </div>
                 <div class="row">
@@ -169,7 +169,7 @@
                         <div class="row font50">
                             <br>
                         </div>
-                        <img src="{{URL::asset('/images/habitaciones/pentHouse.png')}}" class="img-responsive " alt="" >
+                        <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive " alt="" >
                     </div>
                     <div class="col-md-4 black">
                         <div class="row center">
