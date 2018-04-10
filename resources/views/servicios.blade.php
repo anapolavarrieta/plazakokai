@@ -13,13 +13,13 @@
             <!--div class="middleServ1 hidden-sm hidden-xs">
                 <div class="textServ1">LA ALBERCA</div>
             </div-->
-             <div class="hidden-lg hidden-md">
+             <!--div class="hidden-lg hidden-md">
                 <div class="center">
                     <h1 class="bold">LA ALBERCA</h1>
                     <P>El lugar perfecto para disfrutar del sol y relajarse.</p>
                 </div>
-            </div>
-            <div class="middleServ hidden-sm hidden-xs">
+            </div-->
+            <div class="middleServ">
                 <img src="{{URL::asset('/images/kokai_albercaBack.png')}}" class="img-responsive " alt="" >
                 <!--div class="textServ">
                     <P><br></p>
