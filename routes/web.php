@@ -19,6 +19,10 @@ Route::get('/habita.html', function () {
     return view('inicio');
 });
 
+Route::get('/fotos.html', function () {
+    return view('inicio');
+});
+
 Route::get('/somos', function () {
     return view('somos');
 });
