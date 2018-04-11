@@ -9,10 +9,15 @@ body{
     border:0;
 }
 
+.navbar-default .navbar-nav>li>a:hover{
+    color:gray;
+}
 .navbar-default .navbar-nav>li>a{
     color:white;
     font-size: 150%;
 }
+
+
 
 .logo{
     height:80px;
