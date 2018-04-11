@@ -19,11 +19,12 @@ class MasterController extends Controller
 
 
         $data = array('nombre'=>$nombre, 'correo'=>$correo, 'celular'=>$celular, 'telefono'=>$telefono, 'mensaje'=>$mensajeCont);
-        $emails = array('goop.19@gmail.com', 'gaby@kokai.com.mx',$correo);
+        $emails = array('ventash@kokai.com.mx',$correo);
 
         $res = Mail::send('emails.contacto',$data, function ($message) use ($emails) {
 			$message->from('ventash@kokai.com.mx','Hotel Kokai');
 			$message->to($emails);
+			$message->bcc('gaby@kokai.com.mx');
 			$message->subject('[Contacto] Página Hotel');
  		});
 
@@ -70,11 +71,12 @@ class MasterController extends Controller
                 'ph'=>$ph,
                 'comentarios'=>$comentarios);
 
-        $emails = array('goop.19@gmail.com', 'gaby@kokai.com.mx',$correo);
+        $emails = array('ventash@kokai.com.mx',$correo);
 
         $res = Mail::send('emails.reserva',$data, function ($message) use ($emails) {
 			$message->from('ventash@kokai.com.mx','Hotel Kokai');
 			$message->to($emails);
+			$message->bcc('gaby@kokai.com.mx');
 			$message->subject('[Reservación] Página Hotel');
  		});
 

@@ -14,7 +14,7 @@
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-3">
-                        <a href="/"><img class="logo" src="{{URL::asset('/images/logo.jpg')}}" class="img-responsive" alt="" ></a>
+                        <a href="/"><img class="logo" src="{{URL::asset('/images/logoBN2.png')}}" class="img-responsive" alt="" ></a>
                     </div>
                 </div>
              </li>

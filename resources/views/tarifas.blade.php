@@ -61,11 +61,11 @@
                                 </div>
                                 <div class="col-sm-2 " align="center">
                                     <label for='estDbl'>Estandard Doble</label>
-                                    <input type='number' name='estDbl' id='estDbl' step='1' value='' class='float form-control' min="0" max="46">
+                                    <input type='number' name='estDbl' id='estDbl' step='1' value='' class='float form-control' min="0" max="39">
                                 </div>
                                 <div class="col-sm-2 " align="center">
                                     <label for='estKing'>Estandard King</label>
-                                    <input type='number' name='estKing' id='estKing' step='1' value='' class='float form-control' min="0" max="46">
+                                    <input type='number' name='estKing' id='estKing' step='1' value='' class='float form-control' min="0" max="5">
                                 </div>
                                  <div class="col-sm-2 " align="center">
                                     <label for='suite'>Junior<br> Suite</label>
@@ -111,9 +111,12 @@
                 <div class="row">
                     <div class="col-md-1 center fontBold font150">
                     </div>
-                    <div class="col-md-4 center fontBold font150">
-                        Reserva en la página y el desayuno va por nuestra cuenta.
+                    <div class="col-md-4 center fontBold font120 redBorder">
+                        Reserva en la página y el desayuno continental va por nuestra cuenta.
                     </div>
+                </div>
+                <div class="row font50">
+                    <br>
                 </div>
                 <div class="row">
                     <div class="col-md-2 hidden-sm hidden-xs">
