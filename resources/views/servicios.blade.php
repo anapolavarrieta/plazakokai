@@ -50,7 +50,6 @@
                 </div - ->
             </div-->
         </div>
-       <div class="hidden-lg hidden-md col-sm-12 col-xs-12"><br></div>
        <div class="containerServ col-md-6">
             <!--div class="middleServ1">
                 <img src="{{URL::asset('/images/kokai_restaurante.png')}}" class="imgServ img-responsive " alt="" >
@@ -118,7 +117,6 @@
                 </div- ->
             </div-->
         </div>
-        <div class="hidden-lg hidden-md col-sm-12 col-xs-12"><br></div>
          <div class="containerServ col-md-6">
             <!--div class="middleServ1">
                 <img src="{{URL::asset('/images/kokai_camarote.png')}}" class="img-responsive " alt="" >
