@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('inicio');
 });
 
+Route::get('/habita.html', function () {
+    return view('inicio');
+});
+
 Route::get('/somos', function () {
     return view('somos');
 });
