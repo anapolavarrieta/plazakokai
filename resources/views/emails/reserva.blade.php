@@ -65,6 +65,16 @@
                     <td>
                     </td>
                     <td style="text-align: right;">
+                        <b>Teléfono:</b>
+                    </td>
+                    <td>
+                        {{$telefono}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td style="text-align: right;">
                         <b>Adultos:</b>
                     </td>
                     <td>
