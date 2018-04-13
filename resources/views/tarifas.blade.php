@@ -99,33 +99,31 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="container">
-                <div class="row font100">
-                        <br>
+            <div class="container col-md-12">
+                <div class="row">
+                    <br>
+                </div>
+                <div class="row font200 center">
+                    <h2 class="fontBold">T A R I F A S</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 font200 center">
-                        <h2 class="fontBold">T A R I F A S</h2>
+                    <div class="col-md-2 center fontBold font150">
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-1 center fontBold font150">
-                    </div>
-                    <div class="col-md-4 center fontBold font120 redBorder">
+                    <div class="col-md-8 center fontBold font120 redBorder">
                         Reserva en la página y el desayuno continental va por nuestra cuenta.
                     </div>
                 </div>
-                <div class="row font50">
+                <div class="row">
                     <br>
                 </div>
                 <div class="row">
-                    <div class="col-md-2 hidden-sm hidden-xs">
+                    <div class="col-md-4 hidden-sm hidden-xs">
                         <div class="row font50">
                             <br>
                         </div>
                          <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive " alt="" >
                     </div>
-                    <div class="col-md-4 black">
+                    <div class="col-md-8 black">
                         <div class="row center">
                             <h3 class="fontBold">
                                 Habitación Estandard
@@ -141,12 +139,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row white">
+                 <div class="row">
                     <br>
                 </div>
                 <div class="row">
 
-                   <div class="col-md-4 black">
+                   <div class="col-md-8 black">
                         <div class="row center">
                             <h3 class="fontBold">
                                 Junior Suite
@@ -161,24 +159,24 @@
                             </h3>
                         </div>
                     </div>
-                     <div class="col-md-2 hidden-sm hidden-xs">
+                     <div class="col-md-4 hidden-sm hidden-xs">
                         <div class="row font50">
                             <br>
                         </div>
                        <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive " alt="" >
                     </div>
                 </div>
-                <div class="row">
+                 <div class="row">
                     <br>
                 </div>
                 <div class="row">
-                     <div class="col-md-2 hidden-sm hidden-xs">
+                     <div class="col-md-4 hidden-sm hidden-xs">
                         <div class="row font50">
                             <br>
                         </div>
                         <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive " alt="" >
                     </div>
-                    <div class="col-md-4 black">
+                    <div class="col-md-8 black">
                         <div class="row center">
                             <h3 class="fontBold">
                                 Pent-House
@@ -194,7 +192,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="row font200">
+                 <div class="row font50">
+                    <br>
+                </div>
+                <div class="row font70 center">
+                    *Las Tarifas no incluyen impuestos: 16% IVA + 3% Hospedaje
+                </div>
+                <div class="row font50">
                     <br>
                 </div>
             </div>
