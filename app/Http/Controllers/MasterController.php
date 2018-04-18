@@ -76,7 +76,7 @@ class MasterController extends Controller
         $res = Mail::send('emails.reserva',$data, function ($message) use ($emails) {
 			$message->from('ventash@kokai.com.mx','Hotel Kokai');
 			$message->to($emails);
-			$message->bcc('gaby@kokai.com.mx');
+			$message->bcc('oscar@kokai.com.mx');
 			$message->subject('[Reservación] Página Hotel');
  		});
 
