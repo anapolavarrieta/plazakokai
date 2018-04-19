@@ -24,6 +24,9 @@
             <div class="item white">
                  <img src="{{URL::asset('/images/kokaihotel_pp_banner5.png')}}" alt="" class="img-responsive">
             </div>
+             <div class="item white">
+                 <img src="{{URL::asset('/images/roof7b.jpg')}}" alt="" class="img-responsive">
+            </div>
 
         </div>
 
