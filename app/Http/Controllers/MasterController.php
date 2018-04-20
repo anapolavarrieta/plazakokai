@@ -20,11 +20,12 @@ class MasterController extends Controller
 
         $data = array('nombre'=>$nombre, 'correo'=>$correo, 'celular'=>$celular, 'telefono'=>$telefono, 'mensaje'=>$mensajeCont);
         $emails = array('ventash@kokai.com.mx',$correo);
+        $emailsBCC = array('oscar@kokai.com.mx','recepcion@kokai.com.mx');
 
-        $res = Mail::send('emails.contacto',$data, function ($message) use ($emails) {
+        $res = Mail::send('emails.contacto',$data, function ($message) use ($emails, $emailsBCC) {
 			$message->from('ventash@kokai.com.mx','Hotel Kokai');
 			$message->to($emails);
-			$message->bcc('oscar@kokai.com.mx');
+			$message->bcc($emailsBCC);
 			$message->subject('[Contacto] Página Hotel');
  		});
 
@@ -72,11 +73,12 @@ class MasterController extends Controller
                 'comentarios'=>$comentarios);
 
         $emails = array('ventash@kokai.com.mx',$correo);
+        $emailsBCC = array('oscar@kokai.com.mx','recepcion@kokai.com.mx');
 
-        $res = Mail::send('emails.reserva',$data, function ($message) use ($emails) {
+        $res = Mail::send('emails.reserva',$data, function ($message) use ($emails, $emailsBCC) {
 			$message->from('ventash@kokai.com.mx','Hotel Kokai');
 			$message->to($emails);
-			$message->bcc('oscar@kokai.com.mx');
+			$message->bcc($emailsBCC);
 			$message->subject('[Reservación] Página Hotel');
  		});
 
