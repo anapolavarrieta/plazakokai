@@ -134,7 +134,7 @@
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
-                                $ 700 x Noche
+                                $ 570 x Noche
                             </h3>
                         </div>
                     </div>
