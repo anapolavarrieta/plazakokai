@@ -114,7 +114,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <br>
+                    <span class="details" style="display:visible">Las tarifas mostradas aplican del 1 de Junio al 31 de Junio.</span>
+                    <span class="details1" style="display:none">  Las tarifas mostradas aplican del 1 de Julio al 31 de Agosto. </span>
+                    <a id="more" class="fontBold" href="#" onclick="
+                            $('.details').slideToggle(1);
+                            $('.details1').slideToggle(1);
+                            ">
+                        (Mostrar otras fechas)
+                    </a>
                 </div>
                 <div class="row">
                     <div class="col-md-4 hidden-sm hidden-xs">
@@ -134,7 +141,8 @@
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
-                                $ 700 x Noche
+                                <div class="details" style="display:visible">$ 700 x Noche</div>
+                                <div class="details1" style="display:none">$ 1,100 x Noche</div>
                             </h3>
                         </div>
                     </div>
@@ -155,7 +163,8 @@
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
-                                $ 1228 x Noche
+                                <div class="details" style="display:visible">$ 1,228 x Noche</div>
+                                <div class="details1" style="display:none">$ 1,800 x Noche</div>
                             </h3>
                         </div>
                     </div>
@@ -187,7 +196,8 @@
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
-                                $ 1750 x Noche
+                                <div class="details" style="display:visible">$ 1,750 x Noche</div>
+                                <div class="details1" style="display:none">$ 2,500 x Noche</div>
                             </h3>
                         </div>
                     </div>
