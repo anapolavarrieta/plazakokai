@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <span class="details" style="display:visible">Las tarifas mostradas aplican del 1 de Junio al 31 de Junio.</span>
+                    <span class="details" style="display:visible">Las tarifas mostradas aplican del 1 de Junio al 30 de Junio.</span>
                     <span class="details1" style="display:none">  Las tarifas mostradas aplican del 1 de Julio al 31 de Agosto. </span>
                     <a id="more" class="fontBold" href="#" onclick="
                             $('.details').slideToggle(1);
