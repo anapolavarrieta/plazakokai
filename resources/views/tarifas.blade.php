@@ -114,8 +114,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <span class="details" style="display:visible">Las tarifas mostradas aplican del 1 de Junio al 30 de Junio.</span>
-                    <span class="details1" style="display:none">  Las tarifas mostradas aplican del 1 de Julio al 31 de Agosto. </span>
+                    <span class="details" style="display:visible">Las tarifas mostradas aplican del 1 de Julio al 31 de Agosto.</span>
+                    <span class="details1" style="display:none">Las tarifas mostradas aplican a partir del 1 de Septiembre.</span>
                     <a id="more" class="fontBold" href="#" onclick="
                             $('.details').slideToggle(1);
                             $('.details1').slideToggle(1);
@@ -141,8 +141,8 @@
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
-                                <div class="details" style="display:visible">$ 700 x Noche</div>
-                                <div class="details1" style="display:none">$ 1,100 x Noche</div>
+                                <div class="details" style="display:visible">$ 875 x Noche</div>
+                                <div class="details1" style="display:none">$ 875 x Noche</div>
                             </h3>
                         </div>
                     </div>
@@ -163,8 +163,8 @@
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
-                                <div class="details" style="display:visible">$ 1,228 x Noche</div>
-                                <div class="details1" style="display:none">$ 1,800 x Noche</div>
+                                <div class="details" style="display:visible">$ 1,700 x Noche</div>
+                                <div class="details1" style="display:none">$ 1,700 x Noche</div>
                             </h3>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
-                                <div class="details" style="display:visible">$ 1,750 x Noche</div>
+                                <div class="details" style="display:visible">$ 2,500 x Noche</div>
                                 <div class="details1" style="display:none">$ 2,500 x Noche</div>
                             </h3>
                         </div>
