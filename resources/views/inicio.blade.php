@@ -16,6 +16,9 @@
                 <img src="{{URL::asset('/images/kokaihotel_pp_banner2.png')}}" alt="" class="img-responsive">
             </div>
             <div class="item">
+                <img src="{{URL::asset('/images/faroPrincipal.JPG')}}" alt="" class="img-responsive">
+            </div>
+            <div class="item">
                 <img src="{{URL::asset('/images/kokaihotel_pp_banner3.png')}}" alt="" class="img-responsive">
             </div>
             <div class="item">

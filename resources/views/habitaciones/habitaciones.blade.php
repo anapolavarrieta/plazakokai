@@ -56,9 +56,11 @@
                 <div class="col-xs-1 col-sm-1 hidden-md hidden-lg"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
                     <img src="{{URL::asset('/images/Iconos/aire.png')}}" class="img-responsive" title="Aire Acondicionado" >
+                    <div class="col-xs-1 col-sm-1 hidden-md hidden-lg font50">Aire Acondicionado</div>
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
                     <img src="{{URL::asset('/images/Iconos/regadera.jpg')}}" class="img-responsive" title="Regadera" >
+                    <div class="col-xs-1 col-sm-1 hidden-md hidden-lg font50">Regadera</div>
                 </div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
                     <img src="{{URL::asset('/images/Iconos/cable.jpg')}}" class="img-responsive" title="Televisión con Cable" >
@@ -69,7 +71,7 @@
                 <div class="col-md-1 col-sm-2 col-xs-2">
                     <img src="{{URL::asset('/images/Iconos/servicioHabitacion.jpg')}}" class="img-responsive" title="Servicio a la Habitación" >
                 </div>
-                <div class="col-xs-2 col-sm-2 hidden-md hidden-lg"></div>
+                <div class="col-xs-1 col-sm-1 hidden-md hidden-lg"></div>
                 <div class="col-xs-2 col-sm-2 hidden-md hidden-lg"></div>
                 <div class="col-md-1 col-sm-2 col-xs-2">
                     <img src="{{URL::asset('/images/Iconos/internet.jpg')}}" class="img-responsive" title="WiFi" >
