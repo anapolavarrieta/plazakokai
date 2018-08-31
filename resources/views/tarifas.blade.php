@@ -132,9 +132,9 @@
                     </div>
                     <div class="col-md-8 black">
                         <div class="row center">
-                            <h3 class="fontBold">
+                            <h4 class="fontBold">
                                 Habitación Estandard
-                            </h3>
+                            </h4>
                         </div>
                         <div class="row center">
                             2 Camas Matrimoniales o 1 Cama King Size
@@ -154,9 +154,9 @@
 
                    <div class="col-md-8 black">
                         <div class="row center">
-                            <h3 class="fontBold">
+                            <h4 class="fontBold">
                                 Junior Suite
-                            </h3>
+                            </h4>
                         </div>
                          <div class="row center">
                                 Cama King Size y Sofá Cama (max. 4 <i class="glyphicon glyphicon-user black"></i>)
@@ -187,9 +187,9 @@
                     </div>
                     <div class="col-md-8 black">
                         <div class="row center">
-                            <h3 class="fontBold">
+                            <h4 class="fontBold">
                                 Pent-House
-                            </h3>
+                            </h4>
                         </div>
                          <div class="row center">
                             2 Habitaciones | 2 Baños | 2 Sofás Camas (max. 8 <i class="glyphicon glyphicon-user black"></i>)
