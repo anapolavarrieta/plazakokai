@@ -114,8 +114,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <span class="details" style="display:visible">Las tarifas mostradas aplican del 1 de Julio al 31 de Agosto.</span>
-                    <span class="details1" style="display:none">Las tarifas mostradas aplican a partir del 1 de Septiembre.</span>
+                    <span class="details" style="display:visible">Las tarifas mostradas aplican del 1 de Septiembre al 15 de Diciembre.</span>
+                    <span class="details1" style="display:none">Las tarifas mostradas aplican del 16 de Diciembre al 2 de Enero.</span>
                     <a id="more" class="fontBold" href="#" onclick="
                             $('.details').slideToggle(1);
                             $('.details1').slideToggle(1);
@@ -126,6 +126,7 @@
                 <div class="row">
                     <div class="col-md-4 hidden-sm hidden-xs">
                         <div class="row font50">
+                            <br>
                             <br>
                         </div>
                          <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive " alt="" >
@@ -140,10 +141,14 @@
                             2 Camas Matrimoniales o 1 Cama King Size
                         </div>
                         <div class="row center">
-                            <h3 class="fontBold">
-                                <div class="details" style="display:visible">$ 875 x Noche</div>
-                                <div class="details1" style="display:none">$ 875 x Noche</div>
-                            </h3>
+                            <h5 class="fontBold">
+                                <div class="details" style="display:visible">$ 650 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
+                                <div class="details" style="display:visible">$ 850 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
+                                <div class="details" style="display:visible">$ 950 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
+                                <div class="details1" style="display:none">$ 845 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
+                                <div class="details1" style="display:none">$ 1105 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
+                                <div class="details1" style="display:none">$ 1235 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -164,7 +169,7 @@
                         <div class="row center">
                             <h3 class="fontBold">
                                 <div class="details" style="display:visible">$ 1,700 x Noche</div>
-                                <div class="details1" style="display:none">$ 1,700 x Noche</div>
+                                <div class="details1" style="display:none">$ 2,500 x Noche</div>
                             </h3>
                         </div>
                     </div>
@@ -196,8 +201,8 @@
                         </div>
                         <div class="row center">
                             <h3 class="fontBold">
-                                <div class="details" style="display:visible">$ 2,500 x Noche</div>
-                                <div class="details1" style="display:none">$ 2,500 x Noche</div>
+                                <div class="details" style="display:visible">$ 3,500 x Noche</div>
+                                <div class="details1" style="display:none">$ 7,000 x Noche</div>
                             </h3>
                         </div>
                     </div>
