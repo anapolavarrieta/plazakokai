@@ -142,8 +142,8 @@
                         </div>
                         <div class="row center">
                             <h5 class="fontBold">
-                                <div class="details" style="display:visible">$ 650 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
-                                <div class="details" style="display:visible">$ 850 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
+                                <div class="details" style="display:visible">$ 600 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
+                                <div class="details" style="display:visible">$ 800 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
                                 <div class="details" style="display:visible">$ 950 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
                                 <div class="details1" style="display:none">$ 845 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
                                 <div class="details1" style="display:none">$ 1105 x Noche <i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i><i class="glyphicon glyphicon-user black"></i></div>
