@@ -52,7 +52,8 @@
         <!-- Right Side Of Navbar -->
          <ul class="nav navbar-nav navbar-right">
              <li class="menu">
-                <a href="/tarifas"><img src="{{URL::asset('/images/kokaihotel__pp_boton_tarifasrojo_sm.png')}}" alt="" class=""></a>
+                <!--a href="/tarifas"><img src="{{URL::asset('/images/kokaihotel__pp_boton_tarifasrojo_sm.png')}}" alt="" class=""></a-->
+                <a href="http://live.ipms247.com/booking/book-rooms-hotelplazakokaicancun"><img src="{{URL::asset('/images/kokaihotel__pp_boton_tarifasrojo_sm.png')}}" alt="" class=""></a>
              </li>
         </ul>
     </div>
