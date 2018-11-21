@@ -35,6 +35,10 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
+Route::get('/eventos', function () {
+    return view('eventos');
+});
+
 Route::get('/traslados', function () {
     return view('traslados');
 });

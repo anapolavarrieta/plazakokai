@@ -41,6 +41,10 @@
             </li>
             <li class="menu">
                 <br>
+                <a href="/eventos">Eventos</a>
+            </li>
+            <li class="menu">
+                <br>
                 <a href="/traslados">Traslados</a>
             </li>
              <li class="menu">

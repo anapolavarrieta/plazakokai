@@ -2,8 +2,12 @@
 
 @section ('content')
 <div class="container">
-    <div class"row">
-        <div class="col-md-6">
+    <div class="row justify-content-center h-100">
+        <div class="col-md-12">
+            <iframe src="http://live.ipms247.com/booking/book-rooms-hotelplazakokaicancun" height="500px" width="100%" scrolling="yes" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+        <!--div class="col-md-6">
             <div class="container">
                 <div class="row font100">
                         <br>
@@ -217,7 +221,7 @@
                     <br>
                 </div>
             </div>
-        </div>
+        </div-->
     </div>
 </div>
 @stop
