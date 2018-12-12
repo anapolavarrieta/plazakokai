@@ -152,6 +152,34 @@ body{
         height: 180px;
 }
 
+.imgSuperiorVista{
+        background-image: url('/images/Habitaciones/superiorVista.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgSuperiorVista1{
+        background-image: url('/images/Habitaciones/superiorVista1.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgSuperiorVista2{
+        background-image: url('/images/Habitaciones/superiorVista2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
+.imgSuperiorVista3{
+        background-image: url('/images/Habitaciones/superiorVista3.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 180px;
+}
+
 .iconoHab{
     height: 34px;
 }
