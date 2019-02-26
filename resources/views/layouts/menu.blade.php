@@ -1,4 +1,4 @@
-<div class="navbar navbar-default center" role="navigation" id="navigation">
+<div class="navbar navbar-default center white" role="navigation" id="navigation">
     <div class="navbar-header">
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -7,14 +7,17 @@
             <span class="icon-bar"></span>
         </button>
     </div>
-    <div class="collapse navbar-collapse center">
+    <div class="collapse navbar-collapse center white">
         <ul class="nav navbar-nav navbar-left">
             <li class="menu center">
                 <div class="row">
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-3">
-                        <a href="/"><img class="logo" src="{{URL::asset('/images/logoBN2.png')}}" class="img-responsive" alt="" ></a>
+                        <a href="/">
+                            <!--img class="logo" src="{{URL::asset('/images/LOGOS/logoBN2.png')}}" class="img-responsive" alt="" -->
+                            <img src="{{URL::asset('/images/LOGOS/logo.png')}}" alt="Hotel Plaza Kokai" title="Hotel Plaza Kokai">
+                        </a>
                     </div>
                 </div>
              </li>
@@ -29,7 +32,7 @@
             </li-->
             <li class="menu">
                 <br>
-                <a href="/somos">Somos</a>
+                <a href="/somos">Conócenos</a>
             </li>
             <li class="menu">
                 <br>
@@ -54,11 +57,12 @@
 
         </ul>
         <!-- Right Side Of Navbar -->
-         <ul class="nav navbar-nav navbar-right">
-             <li class="menu">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="menu">
                 <!--a href="/tarifas"><img src="{{URL::asset('/images/kokaihotel__pp_boton_tarifasrojo_sm.png')}}" alt="" class=""></a-->
-                <a href="http://live.ipms247.com/booking/book-rooms-hotelplazakokaicancun"><img src="{{URL::asset('/images/kokaihotel__pp_boton_tarifasrojo_sm.png')}}" alt="" class=""></a>
-             </li>
+                <!--a href="http://live.ipms247.com/booking/book-rooms-hotelplazakokaicancun"><img src="{{URL::asset('/images/kokaihotel__pp_boton_tarifasrojo_sm.png')}}" alt="" class=""></a-->
+                <a href="/reservaciones"><img src="{{URL::asset('/images/kokaihotel__pp_boton_tarifasrojo_sm.png')}}" alt="" class=""></a>
+            </li>
         </ul>
     </div>
 </div>

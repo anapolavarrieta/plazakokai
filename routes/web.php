@@ -35,6 +35,14 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
+Route::get('/reservaciones', function () {
+    return view('reservaciones');
+});
+
+Route::get('/reservar', function () {
+    return view('reservar');
+});
+
 Route::get('/eventos', function () {
     return view('eventos');
 });

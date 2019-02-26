@@ -10,26 +10,48 @@
           <!-- Contenedor de los Slide -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="{{URL::asset('/images/kokaihotel_pp_banner1.png')}}" class="img-responsive" alt="" >
+                <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner1.png')}}" class="img-responsive" alt="" >
             </div>
             <div class="item">
-                <img src="{{URL::asset('/images/kokaihotel_pp_banner2.png')}}" alt="" class="img-responsive">
+                 <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner 6.png')}}" alt="Hotel Plaza Kokai" class="img-responsive">
+                 <!--div class="carousel-caption d-none d-md-block">
+                    <h3>El mejor hotel</h3>
+                    <p>en el centro de Cancún</p>
+                </div-->
             </div>
-            <div class="item">
+            <!--div class="item">
+                <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner2.png')}}" alt="" class="img-responsive">
+            </div-->
+            <!--div class="item">
                 <img src="{{URL::asset('/images/faroPrincipal.JPG')}}" alt="" class="img-responsive">
+            </div-->
+            <!--div class="item">
+                 <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner8.png')}}" alt="Hotel Plaza Kokai" class="img-responsive">
+            </div-->
+            <!--div class="item">
+                <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner3.png')}}" alt="" class="img-responsive">
+            </div-->
+            <div class="item white">
+                 <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner9.png')}}" alt="" class="img-responsive">
             </div>
             <div class="item">
-                <img src="{{URL::asset('/images/kokaihotel_pp_banner3.png')}}" alt="" class="img-responsive">
+                 <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner7.png')}}" alt="Hotel Plaza Kokai" class="img-responsive">
             </div>
             <div class="item">
-                <img src="{{URL::asset('/images/kokaihotel_pp_banner4.png')}}" alt="" class="img-responsive">
+                <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner4.png')}}" alt="" class="img-responsive">
             </div>
             <div class="item white">
-                 <img src="{{URL::asset('/images/kokaihotel_pp_banner5.png')}}" alt="" class="img-responsive">
+                 <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner5.png')}}" alt="" class="img-responsive">
             </div>
-             <div class="item white">
-                 <img src="{{URL::asset('/images/roof7b.jpg')}}" alt="" class="img-responsive">
+            <div class="item white">
+                 <img src="{{URL::asset('/images/ROOF/roof7b.jpg')}}" alt="" class="img-responsive">
             </div>
+            <div class="item white">
+                 <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner10.png')}}" alt="" class="img-responsive">
+            </div>
+
+
+
 
         </div>
 
@@ -42,9 +64,6 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Siguiente hidden-xs hidden-sd</span>
           </a>
-    </div>
-    <div class="row white font50">
-        <br>
     </div>
 </div>
 @stop

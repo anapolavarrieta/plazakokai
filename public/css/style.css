@@ -13,11 +13,23 @@ body{
     color:gray;
 }
 .navbar-default .navbar-nav>li>a{
-    color:white;
+    color:#2a2981;
     font-size: 150%;
 }
 
+.azulHotel {
+    background-color:#2a2981;
+    color:white;
+}
 
+.azulHotel1 {
+    background-color:white;
+    color:#2a2981;
+}
+
+.fontAzulHotel {
+    color:#2a2981;
+}
 
 .logo{
     height:80px;
@@ -62,6 +74,18 @@ body{
         background-image: url('/images/fondoPlaya.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
+}
+
+.imgEventos{
+        background-image: url('/images/SOLARIUM/solarium9sm.jpeg');
+        background-repeat: no-repeat;
+        height: 600px;
+        background-position: center;
+        /*
+                background-size: 100% 100%;
+        */
+
+
 }
 
 .imgHabSm{
@@ -278,3 +302,26 @@ body{
    position: absolute;
    margin-left: -10px;
 }
+
+/* Main info */
+.conocenos-info { padding-top: 15px; padding-bottom: 15px; }
+.conocenos-info h1 { color:#2a2981 ; font-weight: 800; font-family: 'Lora', serif; letter-spacing: .02em; text-align: center;}
+.conocenos-info p { color: #666; text-align: center;  font-size:150%;}
+.conocenos-info p span { font-style: italic; }
+
+/* Main info */
+.eventos-info { padding-top: 15px; padding-bottom: 15px; }
+.eventos-info h1 { color:white ; font-weight: 800; font-family: 'Lora', serif; letter-spacing: .02em; text-align: center; }
+.eventos-info p { color: white; text-align: center;  font-size:150%;}
+.eventos-info p span { font-style: italic; }
+
+/* Book Online */
+.booking-online { background: #2a2981; padding: 10px;  }
+.booking-online h4 { color: #fff; font-size: 2em; font-weight: 350; font-family: 'Lora', serif; letter-spacing: .02em; }
+.booking-online p { color: #fff; }
+
+/* Footer */
+.footer-right a { color: #666; text-decoration: underline; }
+.footer-right a:hover { color: #666; text-decoration: none; }
+.footer2 {background: lightgray; color:gray; padding:5px}
+

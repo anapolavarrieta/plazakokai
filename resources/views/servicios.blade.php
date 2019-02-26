@@ -10,10 +10,10 @@
     <div class"row">
         <div class="containerServ col-md-6">
             <!--div class="middleServ1">
-                <img src="{{URL::asset('/images/kokai_alberca.png')}}" class="imgServ img-responsive " alt="" >
+                <img src="{{URL::asset('/images/kokai_alberca1.png')}}" class="imgServ img-responsive " alt="" >
             </div-->
             <div class="parent">
-                <img src="{{URL::asset('/images/kokai_alberca.png')}}" class="middleServ1 img-responsive image1" alt="" >
+                <img src="{{URL::asset('/images/kokai_alberca1.png')}}" class="middleServ1 img-responsive image1" alt="" >
                 <img src="{{URL::asset('/images/kokai_albercaBack.png')}}" class="middleServ img-responsive image2" alt="" >
             </div>
             <!--div class="middleServ1 hidden-sm hidden-xs">
@@ -35,15 +35,15 @@
                 <! - -div class="textServ">
                     <P><br></p>
                     <p class="font50"><br></p>
-                    <h1 class="bold">LA ALBERCA</h1>
+                    <h1 class="bold">El Solarium y la Alberca</h1>
                     <P>El lugar perfecto para disfrutar del sol y relajarse.</p>
                     <p class="font50"><br></p>
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-6">
-                            <img src="{{URL::asset('/images/alberca4.jpg')}}" class="img-responsive" alt="" >
+                            <img src="{{URL::asset('/images/ALBERCA/alberca4.jpg')}}" class="img-responsive" alt="" >
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6">
-                            <img src="{{URL::asset('/images/alberca5.jpg')}}" class="img-responsive" alt="" >
+                            <img src="{{URL::asset('/images/ALBERCA/alberca5.jpg')}}" class="img-responsive" alt="" >
                         </div>
                     </div>
                     <p class="font50"><br></p>

@@ -10,7 +10,7 @@
                 <tr >
                     <td style="background-color:#00336c;color:white;vertical-align: middle;text-align:center; margin:30px;">
                         <a href="www.hotelkokai.com">
-                            <img class="logo" src="{{URL::asset('/images/logo.jpg')}}" style="height:100px;margin-left:20px" alt="Visitenos" >
+                            <img class="logo" src="{{URL::asset('/images/LOGOS/logo.jpg')}}" style="height:100px;margin-left:20px" alt="Visitenos" >
                         </a>
                         <h1>Contacto con en el Hotel Plaza Kokai Cancún</h1>
                     </td>

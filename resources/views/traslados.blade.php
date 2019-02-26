@@ -8,6 +8,8 @@
     <div class="row">
         <div class="col-md-12 font200 fontBold center">
             PARA SU COMODIDAD OFRECEMOS TRASLADOS
+            <br>
+            <br>
         </div>
     </div>
     <div class="row center">
@@ -26,10 +28,11 @@
     </div>
     <div class="row">
         <br>
+        <br>
     </div>
     <div class="row">
         <div class="col-md-12 font200 fontBold center red">
-            <a class="red" href="/tarifas">COMUNICATE CON NOSOTROS Y RESERVA PARA MAYOR INFORMACIÓN</a>
+            <a class="red" href="/contacto">COMUNICATE CON NOSOTROS Y RESERVA PARA MAYOR INFORMACIÓN</a>
         </div>
     </div>
     <div class="row">
