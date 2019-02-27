@@ -7,10 +7,10 @@
 </head>
 <div class="container center">
     <div class="row">
-        <!--div class="filt_wrap_bg"></div-->
+        <div class="filt_wrap_bg"></div>
         <div id="resouter" class="resfb" style="width:100%;margin:0 auto; padding:0;">
-          <!--div class="eZee_BookingContainer" id="eZee_BookingContainer"></div-->
-          <!--div class="eZee_BookingTop" id="eZee_BookingTop"></div-->
+          <div class="eZee_BookingContainer" id="eZee_BookingContainer"></div>
+          <div class="eZee_BookingTop" id="eZee_BookingTop"></div>
           <div class="eZee_BookingHeader" id="eZee_BookingHeader"></div>
           <div class="eZee_BookingFilter" id="eZee_BookingFilter"></div>
           <div class="eZee_BookingRooms" id="eZ_BookingRooms" style="float:left; width:100%"></div>
@@ -48,7 +48,7 @@
       CalMinDate:"0",
       CalDtFormat:"dd-mm-yy",
       CalHeaderColor:"#0b85d6",
-      CalHeaderFontColor:"#ffffff",
+      CalHeaderFontColor:"red",
       CalCellActiveColor:"#fcc51e",
       CalCellInActiveColor:"#a3a3a3",
       ResUIshowfilter:true,
