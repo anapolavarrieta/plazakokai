@@ -8,30 +8,24 @@
     </div>
     <div class="row hidden-lg hidden-md">
         <div class="col-sm-3 col-xs-6 imgHabSm center">
-             <img src="{{URL::asset('/images/Habitaciones/standar_doble.JPG')}}" class="img-responsive" alt="" >
-             Estandard Doble
+            <img src="{{URL::asset('/images/galeria/_DSC9535-Panorámica.JPG')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-sm-3 col-xs-6 imgHabSm center">
-             <img src="{{URL::asset('/images/Habitaciones/standar_king1.JPG')}}" class="img-responsive" alt="" >
-             Estandard King
+            <img src="{{URL::asset('/images/galeria/_DSC9462.JPG')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-sm-3 hidden-xs imgHabSm center">
-             <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive" alt="" >
-             Junior Suite
+            <img src="{{URL::asset('/images/galeria/_DSC9499.JPG')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-sm-3 hidden-xs imgHabSm center">
-             <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive" alt="" >
-             Pent-House
+            <img src="{{URL::asset('/images/galeria/_DSC9507.JPG')}}" class="img-responsive" alt="" >
         </div>
     </div>
     <div class="row hidden-lg hidden-md hidden-sm center">
         <div class="col-xs-6 imgHabSm">
-             <img src="{{URL::asset('/images/Habitaciones/suite2.JPG')}}" class="img-responsive" alt="" >
-             Junior Suite
+             <img src="{{URL::asset('/images/galeria/_DSC9499.JPG')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-xs-6 imgHabSm center">
-             <img src="{{URL::asset('/images/Habitaciones/pentHouse.png')}}" class="img-responsive" alt="" >
-             Pent-House
+             <img src="{{URL::asset('/images/galeria/_DSC9507.JPG')}}" class="img-responsive" alt="" >
         </div>
     </div>
     <div class="row">
