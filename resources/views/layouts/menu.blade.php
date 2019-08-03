@@ -54,6 +54,11 @@
                 <br>
                 <a href="/contacto">Contacto</a>
             </li>
+             <li class="menu">
+                <br>
+                <a href="/galeria">Galería</a>
+            </li>
+
 
         </ul>
         <!-- Right Side Of Navbar -->

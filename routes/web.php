@@ -51,6 +51,11 @@ Route::get('/contacto', function () {
     return view('contacto');
 });
 
+Route::get('/galeria', function () {
+    return view('galeria.galeria');
+});
+
+
 Route::get('/tarifas', function () {
     return view('tarifas');
 });
