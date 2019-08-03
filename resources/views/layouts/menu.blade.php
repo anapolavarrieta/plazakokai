@@ -54,7 +54,7 @@
                 <br>
                 <a href="/contacto">Contacto</a>
             </li>
-             <li class="menu hidden-lg hidden-md hidden-sm">
+             <li class="menu">
                 <br>
                 <a href="/galeria">Galería</a>
             </li>
