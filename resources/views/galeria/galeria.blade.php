@@ -9,15 +9,19 @@
     <div class="row hidden-lg hidden-md">
         <div class="col-sm-3 hidden-xs imgHabSm center">
             <img src="{{URL::asset('/images/Galeria/galeria4.JPG')}}" class="img-responsive" alt="" >
+            PK
         </div>
         <div class="col-sm-3 col-xs-6 imgHabSm center">
             <img src="{{URL::asset('/images/Galeria/galeria1.JPG')}}" class="img-responsive" alt="" >
+            PK
         </div>
         <div class="col-sm-3 col-xs-6 imgHabSm center">
             <img src="{{URL::asset('/images/Galeria/galeria2.JPG')}}" class="img-responsive" alt="" >
+            PK
         </div>
         <div class="col-sm-3 hidden-xs imgHabSm center">
             <img src="{{URL::asset('/images/Galeria/galeria3.JPG')}}" class="img-responsive" alt="" >
+            PK
         </div>
     </div>
     <div class="row hidden-lg hidden-md hidden-sm center">

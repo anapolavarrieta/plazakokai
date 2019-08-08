@@ -35,9 +35,6 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
-             @include('habitaciones.estandard')
-        </div>
         <div class="col-md-8 black">
             <div class="row center font100">
                 <h3 class="fontBold">
@@ -116,97 +113,8 @@
                 <br>
             </div>
         </div>
-    </div>
-    <div class="row white">
-        <br>
-    </div>
-    <div class="row">
-
-       <div class="col-md-8 black">
-            <div class="row center font100">
-                <h3 class="fontBold">
-                    Junior Suite
-                </h3>
-            </div>
-            <div class="row center font100">
-                    Cama King Size y Sofá Cama (max. 4 <i class="glyphicon glyphicon-user black"></i>)  [32 m<sup>2</sup>]
-            </div>
-            <div class="row center font50">
-                 <br>
-            </div>
-            <div class="row center font120">
-                <div class="col-xs-0 col-sm-0 hidden-md hidden-lg"></div>
-                <div class="col-lg-1 col-md-1 hidden-xs hidden-sm"></div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/cafe.jpg')}}" class="img-responsive iconoHab" title="Café">
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/aire.png')}}" class="img-responsive" title="Aire Acondicionado" >
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/regadera.jpg')}}" class="img-responsive" title="Regadera" >
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/tina.jpg')}}" class="img-responsive iconoHab" title="Tina de Hidromasaje" >
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/sala.jpg')}}" class="img-responsive iconoHab" title="Sala - Sofa Cama" >
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/cable.jpg')}}" class="img-responsive" title="Televisión con Cable" >
-                </div>
-                <div class="col-xs-0 col-sm-0 hidden-md hidden-lg"><br><br><br></div>
-
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/elevador.jpg')}}" class="img-responsive" title="Elevador" >
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/servicioHabitacion.jpg')}}" class="img-responsive" title="Servicio a la Habitación" >
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/escritorio.jpg')}}" class="img-responsive iconoHab" title="Mesa con sillas" >
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/cajaFuerte.jpg')}}" class="img-responsive iconoHab" title="Caja Fuerte" >
-                </div>
-                <div class="col-lg-0 col-md-0 hidden-xs hidden-sm">
-                <br><br></div>
-                <div class="col-lg-2 col-md-2 hidden-xs hidden-sm">
-                <br><br></div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/internet.jpg')}}" class="img-responsive" title="WiFi" >
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/telefono.jpg')}}" class="img-responsive" title="Llamadas locales ilimitadas" >
-                </div>
-                <div class="hidden-lg hidden-md col-sm-0 col-xs-0"><br></div>
-                <div class="col-xs-0 col-sm-0 hidden-md hidden-lg"><br><br><br></div>
-                <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/ServicioLavanderia.jpg')}}" class="img-responsive iconoHab" title="Servicio de Lavandería" >
-                </div>
-
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/bellboy.jpg')}}" class="img-responsive iconoHab" title="Bell Boy" >
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/minibar.jpg')}}" class="img-responsive iconoHab" title="Mini Bar">
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/minusvalidos.jpg')}}" class="img-responsive" title="Facilidades para gente con capacidades diferentes." >
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/nofumar.jpg')}}" class="img-responsive" title="Habitación libre de humo" >
-                </div>
-                <div class="col-md-1 col-sm-2 col-xs-2">
-                    <img src="{{URL::asset('/images/Iconos/secadora.png')}}" class="img-responsive" title="Secadora de Pelo" >
-                </div>
-            </div>
-            <div class="row font30">
-                <br>
-            </div>
-        </div>
-         <div class="col-md-4">
-            @include('habitaciones.suite')
+        <div class="col-md-4">
+             @include('habitaciones.estandard')
         </div>
     </div>
     <div class="row white">
@@ -299,6 +207,98 @@
             <div class="row font30">
                 <br>
             </div>
+        </div>
+    </div>
+
+    <div class="row white">
+        <br>
+    </div>
+    <div class="row">
+       <div class="col-md-8 black">
+            <div class="row center font100">
+                <h3 class="fontBold">
+                    Junior Suite
+                </h3>
+            </div>
+            <div class="row center font100">
+                    Cama King Size y Sofá Cama (max. 4 <i class="glyphicon glyphicon-user black"></i>)  [32 m<sup>2</sup>]
+            </div>
+            <div class="row center font50">
+                 <br>
+            </div>
+            <div class="row center font120">
+                <div class="col-xs-0 col-sm-0 hidden-md hidden-lg"></div>
+                <div class="col-lg-1 col-md-1 hidden-xs hidden-sm"></div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/cafe.jpg')}}" class="img-responsive iconoHab" title="Café">
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/aire.png')}}" class="img-responsive" title="Aire Acondicionado" >
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/regadera.jpg')}}" class="img-responsive" title="Regadera" >
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/tina.jpg')}}" class="img-responsive iconoHab" title="Tina de Hidromasaje" >
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/sala.jpg')}}" class="img-responsive iconoHab" title="Sala - Sofa Cama" >
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/cable.jpg')}}" class="img-responsive" title="Televisión con Cable" >
+                </div>
+                <div class="col-xs-0 col-sm-0 hidden-md hidden-lg"><br><br><br></div>
+
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/elevador.jpg')}}" class="img-responsive" title="Elevador" >
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/servicioHabitacion.jpg')}}" class="img-responsive" title="Servicio a la Habitación" >
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/escritorio.jpg')}}" class="img-responsive iconoHab" title="Mesa con sillas" >
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/cajaFuerte.jpg')}}" class="img-responsive iconoHab" title="Caja Fuerte" >
+                </div>
+                <div class="col-lg-0 col-md-0 hidden-xs hidden-sm">
+                <br><br></div>
+                <div class="col-lg-2 col-md-2 hidden-xs hidden-sm">
+                <br><br></div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/internet.jpg')}}" class="img-responsive" title="WiFi" >
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/telefono.jpg')}}" class="img-responsive" title="Llamadas locales ilimitadas" >
+                </div>
+                <div class="hidden-lg hidden-md col-sm-0 col-xs-0"><br></div>
+                <div class="col-xs-0 col-sm-0 hidden-md hidden-lg"><br><br><br></div>
+                <div class="col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/ServicioLavanderia.jpg')}}" class="img-responsive iconoHab" title="Servicio de Lavandería" >
+                </div>
+
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/bellboy.jpg')}}" class="img-responsive iconoHab" title="Bell Boy" >
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/minibar.jpg')}}" class="img-responsive iconoHab" title="Mini Bar">
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/minusvalidos.jpg')}}" class="img-responsive" title="Facilidades para gente con capacidades diferentes." >
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/nofumar.jpg')}}" class="img-responsive" title="Habitación libre de humo" >
+                </div>
+                <div class="col-md-1 col-sm-2 col-xs-2">
+                    <img src="{{URL::asset('/images/Iconos/secadora.png')}}" class="img-responsive" title="Secadora de Pelo" >
+                </div>
+            </div>
+            <div class="row font30">
+                <br>
+            </div>
+        </div>
+         <div class="col-md-4">
+            @include('habitaciones.suite')
         </div>
     </div>
     <!--div class="row">
