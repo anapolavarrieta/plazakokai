@@ -8,28 +8,24 @@
     </div>
     <div class="row hidden-lg hidden-md">
         <div class="col-sm-3 hidden-xs imgHabSm center">
-            <img src="{{URL::asset('/images/Galeria/galeria4.JPG')}}" class="img-responsive" alt="" >
-            PK
+            <img src="{{URL::asset('/images/Galeria/galeria4.jpg')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-sm-3 col-xs-6 imgHabSm center">
-            <img src="{{URL::asset('/images/Galeria/galeria1.JPG')}}" class="img-responsive" alt="" >
-            PK
+            <img src="{{URL::asset('/images/Galeria/galeria1.jpg')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-sm-3 col-xs-6 imgHabSm center">
-            <img src="{{URL::asset('/images/Galeria/galeria2.JPG')}}" class="img-responsive" alt="" >
-            PK
+            <img src="{{URL::asset('/images/Galeria/galeria2.jpg')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-sm-3 hidden-xs imgHabSm center">
-            <img src="{{URL::asset('/images/Galeria/galeria3.JPG')}}" class="img-responsive" alt="" >
-            PK
+            <img src="{{URL::asset('/images/Galeria/galeria3.jpg')}}" class="img-responsive" alt="" >
         </div>
     </div>
     <div class="row hidden-lg hidden-md hidden-sm center">
         <div class="col-xs-6 imgHabSm">
-             <img src="{{URL::asset('/images/Galeria/galeria2.JPG')}}" class="img-responsive" alt="" >
+             <img src="{{URL::asset('/images/Galeria/galeria2.jpg')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-xs-6 imgHabSm center">
-             <img src="{{URL::asset('/images/Galeria/galeria3.JPG')}}" class="img-responsive" alt="" >
+             <img src="{{URL::asset('/images/Galeria/galeria3.jpg')}}" class="img-responsive" alt="" >
         </div>
     </div>
     <div class="row">
