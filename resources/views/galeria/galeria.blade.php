@@ -7,13 +7,13 @@
         <br>
     </div>
     <div class="row hidden-lg hidden-md">
-        <div class="col-sm-3 hidden-xs imgHabSm center">
+        <div class="col-sm-3 col-xs-6 imgHabSm center">
             <img src="{{URL::asset('/images/Galeria/galeria4.jpg')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-sm-3 col-xs-6 imgHabSm center">
             <img src="{{URL::asset('/images/Galeria/galeria1.jpg')}}" class="img-responsive" alt="" >
         </div>
-        <div class="col-sm-3 col-xs-6 imgHabSm center">
+        <div class="col-sm-3 hidden-xs imgHabSm center">
             <img src="{{URL::asset('/images/Galeria/galeria2.jpg')}}" class="img-responsive" alt="" >
         </div>
         <div class="col-sm-3 hidden-xs imgHabSm center">
