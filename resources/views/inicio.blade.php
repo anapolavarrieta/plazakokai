@@ -10,10 +10,10 @@
           <!-- Contenedor de los Slide -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner1.png')}}" class="img-responsive" alt="" >
+                <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner11.jpg')}}" class="img-responsive" alt="" >
             </div>
             <div class="item">
-                 <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner 6.png')}}" alt="Hotel Plaza Kokai" class="img-responsive">
+                 <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner12.jpg')}}" alt="Hotel Plaza Kokai" class="img-responsive">
                  <!--div class="carousel-caption d-none d-md-block">
                     <h3>El mejor hotel</h3>
                     <p>en el centro de Cancún</p>
