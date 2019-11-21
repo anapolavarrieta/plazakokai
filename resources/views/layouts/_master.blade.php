@@ -63,7 +63,18 @@
 
 
 	@stack('body')
-
+    <script>
+        (
+            function(a,t,b,c,d){
+                c=a.createElement(t);
+                c.src=b,c.defer=true,c.async=true,c.crossOrigin='anonymous';
+                c.type="text/javascript";
+                d=a.getElementsByTagName(t)[0];
+                d.parentNode.insertBefore(c,d)
+            }
+        )
+        (document,"script","https://onboard.triptease.io/bootstrap.js?integrationId=01DSZJCR0BDZ41VRZJK8PKTHGC");
+    </script>
 </body>
 
 <footer class="footer" >
