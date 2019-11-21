@@ -32,7 +32,7 @@
                 <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner3.png')}}" alt="" class="img-responsive">
             </div-->
             <div class="item white">
-                 <img src="{{URL::asset('/images/BANNERS_INICIO/obten_desayuno.png')}}" alt="" class="img-responsive">
+                 <img src="{{URL::asset('/images/BANNERS_INICIO/obten_desayuno2.png')}}" alt="" class="img-responsive">
             </div>
             <div class="item white">
                  <img src="{{URL::asset('/images/BANNERS_INICIO/kokaihotel_pp_banner9.png')}}" alt="" class="img-responsive">
