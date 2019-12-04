@@ -183,7 +183,7 @@
             <br>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="col-xs-12 col-sm-6 col-md-4 hidden-xs hidden-sm hidden-md hidden-lg hidden-xl">
         <div class="hidden-xs hidden-md hidden-lg hidden-xl">
             <br>
         </div>
