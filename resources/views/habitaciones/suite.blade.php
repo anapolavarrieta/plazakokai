@@ -1,4 +1,4 @@
- <div id="myCarousel" class="carousel slide hidden-sm hidden-xs" data-ride="carousel" data-interval="5000">
+ <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
 
     <!-- Contenedor de los Slide -->
     <div class="carousel-inner">

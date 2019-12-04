@@ -24,7 +24,7 @@ Route::get('/fotos.html', function () {
 });
 
 Route::get('/somos', function () {
-    return view('somos');
+    return view('somos.somos');
 });
 
 Route::get('/habitaciones', function () {
@@ -32,7 +32,7 @@ Route::get('/habitaciones', function () {
 });
 
 Route::get('/servicios', function () {
-    return view('servicios');
+    return view('servicios.servicios');
 });
 
 Route::get('/reservaciones', function () {

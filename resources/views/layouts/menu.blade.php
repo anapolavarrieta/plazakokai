@@ -1,5 +1,11 @@
 <div class="navbar navbar-default center white" role="navigation" id="navigation">
-    <div class="navbar-header">
+    <div class="navbar-header white">
+        <div class="col-xs-2 navbar-brand hidden-sm hidden-md hidden-lg hidden-xl">
+            <a href="/">
+                <img src="{{URL::asset('/images/LOGOS/logo.png')}}" alt="Hotel Plaza Kokai" title="Hotel Plaza Kokai" class="img-responsive">
+            </a>
+        </div>
+
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -11,9 +17,7 @@
         <ul class="nav navbar-nav navbar-left">
             <li class="menu center">
                 <div class="row">
-                    <div class="col-md-6">
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-1 col-md-3 hidden-xs">
                         <a href="/">
                             <!--img class="logo" src="{{URL::asset('/images/LOGOS/logoBN2.png')}}" class="img-responsive" alt="" -->
                             <img src="{{URL::asset('/images/LOGOS/logo.png')}}" alt="Hotel Plaza Kokai" title="Hotel Plaza Kokai">

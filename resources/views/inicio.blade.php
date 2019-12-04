@@ -5,7 +5,7 @@
     <div class="row white font50">
         <br>
     </div>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
 
           <!-- Contenedor de los Slide -->
         <div class="carousel-inner">
@@ -70,5 +70,24 @@
             <span class="sr-only">Siguiente hidden-xs hidden-sd</span>
           </a>
     </div>
+    @include('somos.somosAux')
+    <div class="row">
+        <div class="col-xs-12 center border conocenos-info">
+            <h1>Habitaciones</h1>
+        </div>
+    </div>
+    @include('habitaciones.habitacionesAux')
+    <div class="row">
+        <div class="col-xs-12 center border conocenos-info">
+            <h1>Servicios</h1>
+        </div>
+    </div>
+    @include('servicios.serviciosAux')
+    <div class="row">
+        <div class="col-xs-12 center border conocenos-info">
+            <h1>Galería</h1>
+        </div>
+    </div>
+    @include('galeria.galeriaAux')
 </div>
 @stop
